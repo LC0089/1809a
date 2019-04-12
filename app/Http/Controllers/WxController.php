@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Redis;
 use Illuminate\Http\Request;
-use Storage;
+use GuzzleHttp\Client;
 class WxController extends Controller{
     public function valid(){
         echo $_GET['echostr'];
@@ -139,18 +139,12 @@ class WxController extends Controller{
             ),
         );
         $strjson = json_encode($arr,JSON_UNESCAPED_UNICODE);
-//        var_dump($strjson);die;
-        $clinet = new Clinet();
-        $response = $clinet ->request('POST',$url,[
+        $clinet = new Client();
+        $response = $clinet ->request("POST",$url,[
             'body'=>$strjson
         ]);
-        $res_str = $response->getBoy();
-        $arr = json_encode($res_str,true);
-        if($arr['errcode']>0){
-            echo "创建失败";
-        }else {
-            echo '创建成功';
-        }
+        $res_str = $response->getBody();
+//        echo $res_str;
     }
 }
 ?>
