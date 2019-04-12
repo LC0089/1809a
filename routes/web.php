@@ -14,3 +14,8 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('valid','WxController@valid');
+Route::post('valid','WxController@wxEvent');
+Route::any('accessToken','WxController@accessToken');
+Route::any('menu','WxController@menu');
