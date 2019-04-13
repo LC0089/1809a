@@ -76,11 +76,14 @@ class WxController extends Controller{
             $url='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.env('WX_APPID').'&secret='.env('WX_SECRET').'';
             $response = file_get_contents($url);
             $arr = json_decode($response,true);
+            $access = $arr['access_token'];
 //            print_r($arr);die;
-            Redis::set($key,$arr['access_token']);
+            Redis::set($key,$access);
             Redis::expire($key,3600);
-            $accessToken = $arr['access_token'];
-            print_r($accessToken);
+           $accessToken = $arr['access_token'];
+
+
+        print_r($accessToken);
        // }
         return $accessToken;
     }
