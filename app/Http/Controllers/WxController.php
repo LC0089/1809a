@@ -69,17 +69,19 @@ class WxController extends Controller{
 
         $key = 'wx_access_token';
         $accessToken = Redis::get($key);
-        if($accessToken){
-            echo 'Cache:';
-        }else{
-            echo 'NoCache:';
+        //if($accessToken){
+         //   echo 'Cache:';
+       // }else{
+           // echo 'NoCache:';
             $url='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.env('WX_APPID').'&secret='.env('WX_SECRET').'';
             $response = file_get_contents($url);
             $arr = json_decode($response,true);
+//            print_r($arr);die;
             Redis::set($key,$arr['access_token']);
             Redis::expire($key,3600);
             $accessToken = $arr['access_token'];
-        }
+            print_r($accessToken);
+       // }
         return $accessToken;
     }
     public function menu(){
@@ -144,7 +146,7 @@ class WxController extends Controller{
             'body'=>$strjson
         ]);
         $res_str = $response->getBody();
-//        echo $res_str;
+        echo $res_str;
     }
 }
 ?>
