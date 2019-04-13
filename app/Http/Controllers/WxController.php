@@ -23,6 +23,7 @@ class WxController extends Controller{
         $Event = $objxml->Event;
         $EventKey = $objxml->EventKey;
         $Content = $objxml->Content;
+        $MediaId = $objxml->MediaId;
 
         $openid = $FromUserName;
         $accessToken = $this->accessToken();
@@ -32,10 +33,28 @@ class WxController extends Controller{
 //        print_r($arr);die;
         $name = $arr['nickname'];
         $openid = $arr['openid'];
-        $date = DB::table('user')->where('openid',$openid)->first();
-        if($date){
-            $content = "$name,欢迎回来";
-            $str = "
+        $date = DB::table('user')->where('openid',$openid)->count();
+//        print_r($date);die;
+        if($Event=='subscribe'){
+            if($date){
+                $content = "$name,欢迎回来";
+                $str = "
+                <xml>
+                  <ToUserName><![CDATA[$FromUserName]]></ToUserName>
+                  <FromUserName><![CDATA[$ToUserName]]></FromUserName>
+                  <CreateTime>$CreateTime</CreateTime>
+                  <MsgType><![CDATA[text]]></MsgType>
+                  <Content><![CDATA[$content]]></Content>
+                </xml>";
+                echo $str;
+            }else{
+                $data=[
+                    'user_name'=>$name,
+                    'openid'=>$openid
+                ];
+                $array = DB::table('user')->insert($data);
+                $content = "$name,欢迎关注";
+                $str = "
             <xml>
               <ToUserName><![CDATA[$FromUserName]]></ToUserName>
               <FromUserName><![CDATA[$ToUserName]]></FromUserName>
@@ -43,36 +62,35 @@ class WxController extends Controller{
               <MsgType><![CDATA[text]]></MsgType>
               <Content><![CDATA[$content]]></Content>
             </xml>";
-            echo $str;
-        }else{
-            $data=[
-                'user_name'=>$name,
-                'openid'=>$openid
-            ];
-            $array = DB::table('user')->insert($data);
-            $content = "$name,欢迎关注";
-            $str = "
-            <xml>
-              <ToUserName><![CDATA[$FromUserName]]></ToUserName>
-              <FromUserName><![CDATA[$ToUserName]]></FromUserName>
-              <CreateTime>$CreateTime</CreateTime>
-              <MsgType><![CDATA[text]]></MsgType>
-              <Content><![CDATA[$content]]></Content>
-            </xml>";
-            echo $str;
+                echo $str;
+            }
         }
 
+        if($MsgType=='image'){
+            $url="https://api.weixin.qq.com/cgi-bin/media/get?access_token=$accessToken&media_id=$MediaId";
+            $response = file_get_contents($url);
+            file_put_contents("/tmp/$time.jpg",$response,FILE_APPEND);
+        }else if($MsgType=='text'){
+            $data = [
+                'openid'=>$openid,
+                'content'=>$Content
+            ];
+            $array = DB::table('sucai')->insert($data);
+        }else if($MsgType=='voice'){
+            $url="https://api.weixin.qq.com/cgi-bin/media/get?access_token=$accessToken&media_id=$MediaId";
+            $response = file_get_contents($url);
+            file_put_contents("/tmp/$time.mp3",$response,FILE_APPEND);
+        }
 
     }
     //获取accessToken
     public function accessToken(){
-
         $key = 'wx_access_token';
         $accessToken = Redis::get($key);
-        //if($accessToken){
-         //   echo 'Cache:';
-       // }else{
-           // echo 'NoCache:';
+        if($accessToken){
+            echo 'Cache:';
+        }else{
+            echo 'NoCache:';
             $url='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.env('WX_APPID').'&secret='.env('WX_SECRET').'';
             $response = file_get_contents($url);
             $arr = json_decode($response,true);
@@ -81,10 +99,8 @@ class WxController extends Controller{
             Redis::set($key,$access);
             Redis::expire($key,3600);
            $accessToken = $arr['access_token'];
-
-
-        print_r($accessToken);
-       // }
+//        print_r($accessToken);
+        }
         return $accessToken;
     }
     public function menu(){
