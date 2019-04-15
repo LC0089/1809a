@@ -109,19 +109,30 @@ class WxController extends Controller{
         $arr = array(
             "button"=> array(
                 array(
-                    'name'=>"葫芦娃娃",
-                    "type"=>"click",
-                    "key"=>"aaaaa",
+                    "name"=>"发送位置",
+                    "type"=> "location_select",
+                    "key"=> "rselfmenu_2_0"
+                ),
+                array(
+                    'name'=>"发图",
                     "sub_button"=>array(
                         array(
-                            "type"=>"click",
-                            "name"=>"大娃娃",
-                            "key"=>"iii"
+                            "type"=>"pic_sysphoto",
+                            "name"=>"系统拍照发图",
+                            "key"=>"rselfmenu_1_0",
+                            "sub_button"=>[ ]
                         ),
                         array(
-                            "type"=>"click",
-                            "name"=>"小娃娃",
-                            "key"=>"iii"
+                            "type"=>"pic_photo_or_album",
+                            "name"=>"拍照或者相册发图",
+                            "key"=>"rselfmenu_1_1",
+                            "sub_button"=>[ ]
+                        ),
+                        array(
+                            "type"=>"pic_weixin",
+                            "name"=>"微信相册发图",
+                            "key"=>"rselfmenu_1_2",
+                            "sub_button"=>[ ]
                         ),
                     ),
 
@@ -143,19 +154,6 @@ class WxController extends Controller{
                         ),
 
                     ),
-                ),
-                array(
-                    'name'=>"推广",
-                    "type"=>"click",
-                    "key"=>"bbb",
-                    "sub_button"=>array(
-                        array(
-                            "type"=>"scancode_waitmsg",
-                            "name"=>"微信扫码",
-                            "key"=>"iii"
-                        ),
-                    ),
-
                 ),
             ),
         );
