@@ -35,6 +35,8 @@ class WxController extends Controller{
         $openid = $arr['openid'];
         $date = DB::table('user')->where('openid',$openid)->count();
 //        print_r($date);die;
+
+
         if($Event=='subscribe'){
             if($date){
                 $content = "$name,欢迎回来";
@@ -69,27 +71,75 @@ class WxController extends Controller{
         if($MsgType=='image'){
             $url="https://api.weixin.qq.com/cgi-bin/media/get?access_token=$accessToken&media_id=$MediaId";
             $response = file_get_contents($url);
-            $name = $time. 'jpg';
-            file_put_contents("/tmp/$name",$response,FILE_APPEND);
+            $file_name = rtrim(substr("QAZWSXEDCRFVTGBYHNUJMIKMOLqwertyuiopasdfghjklzxcvbnmP", -10), '"').".jpg";//取文件名后10位
+            $img_name =  substr(md5(time() . mt_rand()), 10, 8) . '_' . $file_name;//最后的文件名;
+            file_put_contents("/tmp/$img_name",$response,FILE_APPEND);
             $data = [
                 'openid'=>$openid,
-                'image_url'=>"/tmp/".$name
+                'image_url'=>"/tmp/".$img_name
             ];
             $array = DB::table('sucai')->insert($data);
         }else if($MsgType=='text'){
-            $data = [
-                'openid'=>$openid,
-                'content'=>$Content
-            ];
-            $array = DB::table('sucai')->insert($data);
+            if(strpos($Content,"天气")){
+                $cityid =101110101;
+                $url="https://www.tianqiapi.com/api/?version=v1&$cityid";
+                $response = file_get_contents($url);
+                $arr = json_decode($response,true);
+//                print_r($arr);die;
+                $city ="城市：" . $arr['city'];
+                $time ="当前时间:" . $arr['update_time'];
+                foreach($arr['data'] as $v){
+                    $week = $v['week'];
+                    $wea ="天气：" . $v['wea'];
+//                    print_r($v['air_tips']);die;
+//                    $air_tips ="建议：" . $v['air_tips'];
+//                    print_r($air_tips);die;
+                    $tem1 ="最高气温：" . $v['tem1'];
+                    $tem2 ="最低气温：" . $v['tem2'];
+                    $win_speed ="风级：" . $v['win_speed'];
+                }
+                $data = [
+                    'city'=>$city,
+                    'time'=>$time,
+                    'week'=>$week,
+                    'wea'=>$wea,
+                    'time'=>$wea,
+                    'tem1'=>$tem1,
+                    'tem2'=>$tem2,
+                    'win_speed'=>$win_speed,
+                ];
+                $string="
+                $city \n
+                $time $week \n
+                $wea \n
+                $tem1 \n
+                $tem2 \n
+                $win_speed ";
+                $str = "
+                <xml>
+                  <ToUserName><![CDATA[$FromUserName]]></ToUserName>
+                  <FromUserName><![CDATA[$ToUserName]]></FromUserName>
+                  <CreateTime>$CreateTime</CreateTime>
+                  <MsgType><![CDATA[text]]></MsgType>
+                  <Content><![CDATA[$string]]></Content>
+                </xml>";
+                echo $str;
+            }else{
+                $data = [
+                    'openid'=>$openid,
+                    'content'=>$Content
+                ];
+                $array = DB::table('sucai')->insert($data);
+            }
         }else if($MsgType=='voice'){
             $url="https://api.weixin.qq.com/cgi-bin/media/get?access_token=$accessToken&media_id=$MediaId";
             $response = file_get_contents($url);
-            $name = $time . 'mp3';
-            file_put_contents("/tmp/$name",$response,FILE_APPEND);
+            $file_name = rtrim(substr("QAZWSXEDCRFVTGBYHNUJMIKMOLqwertyuiopasdfghjklzxcvbnmP", -10), '"').".mp3";//取文件名后10位
+            $voice_name =  substr(md5(time() . mt_rand()), 10, 8) . '_' . $file_name;//最后的文件名;
+            file_put_contents("/tmp/$voice_name",$response,FILE_APPEND);
             $data = [
                 'openid'=>$openid,
-                'voice_url'=>"/tmp/".$name
+                'voice_url'=>"/tmp/".$voice_name
             ];
             $array = DB::table('sucai')->insert($data);
         }
