@@ -86,6 +86,7 @@ class WxController extends Controller{
             $url="https://api.weixin.qq.com/cgi-bin/media/get?access_token=$accessToken&media_id=$MediaId";
             $response = file_get_contents($url);
             $name = $time .mp3;
+            print_r($name);die;
             file_put_contents("/tmp/$time.mp3",$response,FILE_APPEND);
             $data = [
                 'openid'=>$openid,
