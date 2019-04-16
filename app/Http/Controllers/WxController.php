@@ -69,7 +69,13 @@ class WxController extends Controller{
         if($MsgType=='image'){
             $url="https://api.weixin.qq.com/cgi-bin/media/get?access_token=$accessToken&media_id=$MediaId";
             $response = file_get_contents($url);
-            file_put_contents("/tmp/$time.jpg",$response,FILE_APPEND);
+            $name = $time.jpg;
+            file_put_contents("/tmp/$name",$response,FILE_APPEND);
+            $data = [
+                'openid'=>$openid,
+                'image_url'=>"/tmp/".$name
+            ];
+            $array = DB::table('sucai')->insert($data);
         }else if($MsgType=='text'){
             $data = [
                 'openid'=>$openid,
@@ -79,7 +85,13 @@ class WxController extends Controller{
         }else if($MsgType=='voice'){
             $url="https://api.weixin.qq.com/cgi-bin/media/get?access_token=$accessToken&media_id=$MediaId";
             $response = file_get_contents($url);
+            $name = $time .mp3;
             file_put_contents("/tmp/$time.mp3",$response,FILE_APPEND);
+            $data = [
+                'openid'=>$openid,
+                'image_url'=>"/tmp/".$name
+            ];
+            $array = DB::table('sucai')->insert($data);
         }
 
     }
@@ -109,30 +121,19 @@ class WxController extends Controller{
         $arr = array(
             "button"=> array(
                 array(
-                    "name"=>"发送位置",
-                    "type"=> "location_select",
-                    "key"=> "rselfmenu_2_0"
-                ),
-                array(
-                    'name'=>"发图",
+                    'name'=>"葫芦娃娃",
+                    "type"=>"click",
+                    "key"=>"aaaaa",
                     "sub_button"=>array(
                         array(
-                            "type"=>"pic_sysphoto",
-                            "name"=>"系统拍照发图",
-                            "key"=>"rselfmenu_1_0",
-                            "sub_button"=>[ ]
+                            "type"=>"click",
+                            "name"=>"大娃娃",
+                            "key"=>"iii"
                         ),
                         array(
-                            "type"=>"pic_photo_or_album",
-                            "name"=>"拍照或者相册发图",
-                            "key"=>"rselfmenu_1_1",
-                            "sub_button"=>[ ]
-                        ),
-                        array(
-                            "type"=>"pic_weixin",
-                            "name"=>"微信相册发图",
-                            "key"=>"rselfmenu_1_2",
-                            "sub_button"=>[ ]
+                            "type"=>"click",
+                            "name"=>"小娃娃",
+                            "key"=>"iii"
                         ),
                     ),
 
@@ -155,6 +156,19 @@ class WxController extends Controller{
 
                     ),
                 ),
+                array(
+                    'name'=>"推广",
+                    "type"=>"click",
+                    "key"=>"bbb",
+                    "sub_button"=>array(
+                        array(
+                            "type"=>"scancode_waitmsg",
+                            "name"=>"微信扫码",
+                            "key"=>"iii"
+                        ),
+                    ),
+
+                ),
             ),
         );
         $strjson = json_encode($arr,JSON_UNESCAPED_UNICODE);
@@ -165,5 +179,11 @@ class WxController extends Controller{
         $res_str = $response->getBody();
         echo $res_str;
     }
+        //$response = $client->get(new Uri($url));
+        //$headers = $response->getHeaders();  //获取响应头像
+        //$file_info = $headers['Content-disposition'][0];
+        //$file_name = rtrim(substr($file_info,-20),'""');
+        //$new_file_name = 'weixin/' .substr(md5(time().mt_rand()),10,8).'_'.$file_name;
+        //$rs = Storage::put($new_file_name,$response->getBody());
 }
 ?>
