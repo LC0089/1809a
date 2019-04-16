@@ -69,7 +69,7 @@ class WxController extends Controller{
         if($MsgType=='image'){
             $url="https://api.weixin.qq.com/cgi-bin/media/get?access_token=$accessToken&media_id=$MediaId";
             $response = file_get_contents($url);
-            $name = $time.jpg;
+            $name = $time. 'jpg';
             file_put_contents("/tmp/$name",$response,FILE_APPEND);
             $data = [
                 'openid'=>$openid,
@@ -85,12 +85,11 @@ class WxController extends Controller{
         }else if($MsgType=='voice'){
             $url="https://api.weixin.qq.com/cgi-bin/media/get?access_token=$accessToken&media_id=$MediaId";
             $response = file_get_contents($url);
-            $name = $time .mp3;
-            print_r($name);die;
-            file_put_contents("/tmp/$time.mp3",$response,FILE_APPEND);
+            $name = $time . 'mp3';
+            file_put_contents("/tmp/$name",$response,FILE_APPEND);
             $data = [
                 'openid'=>$openid,
-                'image_url'=>"/tmp/".$name
+                'voice_url'=>"/tmp/".$name
             ];
             $array = DB::table('sucai')->insert($data);
         }
