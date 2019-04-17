@@ -265,11 +265,12 @@ class WxController extends Controller{
     public $notify_url = 'http://1809lancong.comcto.com/notify'; // 支付回调
     public function test(){
         $total_fee = 1;         //用户要支付的总金额
-        $order=DB::table('shop_order')->first();
-        $order_id = $order->order_number;
+//        $order=DB::table('shop_order')->first();
+//        $order_id = $order->order_number;
+        $order_id = time().mt_rand(11111,99999);            //测试订单号 随机生成
         $order_info = [
-            'appid'         =>  env('WX_APPID'),      //微信支付绑定的服务号的APPID
-            'mch_id'        =>  env('WX_SECRET'),       // 商户ID
+            'appid'         =>  env('WEIXIN_APPID_0'),      //微信支付绑定的服务号的APPID
+            'mch_id'        =>  env('WEIXIN_MCH_ID'),          // 商户ID
             'nonce_str'     => Str::random(16),             // 随机字符串
             'sign_type'     => 'MD5',
             'body'          => '测试订单-'.mt_rand(1111,9999) . Str::random(6),
@@ -284,14 +285,15 @@ class WxController extends Controller{
         $this->values = $order_info;
         $this->SetSign();
         $xml = $this->ToXml();      //将数组转换为XML
-        $rs = $this->postXmlCurl($xml, $this->weixin_unifiedorder_url, $useCert = false, $second = 30);
+//        print_r($order_info);die;
+        $rs = $this->postXmlCurl($xml, $this->weixin_unifiedorder_url,$useCert = false,$second = 30);
+//        var_dump($rs);die;
         $data =  simplexml_load_string($rs);
-        var_dump($data);echo '<hr>';
+//        var_dump($data);die;
         //将 code_url 返回给前端，前端生成 支付二维码
         $data = [
             'code_url'  => $data->code_url
         ];
-
         return view('weixin.test',$data);
     }
     protected function ToXml()
