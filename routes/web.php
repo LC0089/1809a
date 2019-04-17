@@ -20,3 +20,5 @@ Route::post('valid','WxController@wxEvent');
 Route::any('accessToken','WxController@accessToken');
 Route::any('menu','WxController@menu');
 Route::any('openiddo','WxController@openiddo');
+Route::any('test','WxController@test');
+Route::any('notify','WxController@notify');
