@@ -284,16 +284,16 @@ class WxController extends Controller{
         $this->values = $order_info;
         $this->SetSign();
         $xml = $this->ToXml();      //将数组转换为XML
-//        print_r($xml);die;
         $rs = $this->postXmlCurl($xml, $this->weixin_unifiedorder_url, $useCert = false, $second = 30);
         $data =  simplexml_load_string($rs);
+        var_dump($data);echo '<hr>';
+        //将 code_url 返回给前端，前端生成 支付二维码
         $data = [
             'code_url'  => $data->code_url
         ];
-//        print_r($data);die;
+
         return view('weixin.test',$data);
     }
-
     protected function ToXml()
     {
         if(!is_array($this->values)
@@ -392,7 +392,6 @@ class WxController extends Controller{
         $log_str = date('Y-m-d H:i:s') . "\n" . $data . "\n<<<<<<<";
         file_put_contents('logs/wx_pay_notice.log',$log_str,FILE_APPEND);
         $xml = simplexml_load_string($data);
-//        print_r($xml);die;
         if($xml->result_code=='SUCCESS' && $xml->return_code=='SUCCESS'){      //微信支付成功回调
             //验证签名
             $sign = true;
