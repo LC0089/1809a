@@ -241,7 +241,7 @@ class WxController extends Controller{
 //        print_r($openid);die;
         //调用接口根据openid群发
         $msgurl = "https://api.weixin.qq.com/cgi-bin/message/mass/send?access_token=$accessToken";
-        $content = "好嗨呦";
+        $content = "想你了";
         $arr = array(
             'touser'=>$openid,
             'msgtype'=>"text",
@@ -249,15 +249,14 @@ class WxController extends Controller{
                 'content'=>$content,
             ],
         );
-        //print_r($arr);
         $strjson = json_encode($arr,JSON_UNESCAPED_UNICODE);
         $objurl = new Client();
         $response = $objurl->request('POST',$msgurl,[
             'body' => $strjson
         ]);
         $res_str = $response->getBody();
+//        print_r($res_str);die;
         echo $res_str;
-//        return $res_str;
     }
 
 }
