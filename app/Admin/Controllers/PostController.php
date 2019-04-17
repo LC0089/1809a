@@ -125,4 +125,12 @@ class PostController extends Controller
 
         return $form;
     }
+
+//    public function herd(Content $content){
+//
+//        return $content
+//            ->header('微信')
+//            ->description('标签列表')
+//            ->body(view('weixin.blackuserlist'));
+//    }
 }

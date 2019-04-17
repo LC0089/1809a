@@ -12,4 +12,5 @@ Route::group([
 
     $router->get('/', 'HomeController@index');
     $router->resource('/user',PostController::class);
+    $router->resource('/herd',PostController::class);
 });

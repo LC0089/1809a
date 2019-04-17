@@ -36,7 +36,6 @@ class WxController extends Controller{
         $date = DB::table('user')->where('openid',$openid)->count();
 //        print_r($date);die;
 
-
         if($Event=='subscribe'){
             if($date){
                 $content = "$name,欢迎回来";
@@ -150,9 +149,8 @@ class WxController extends Controller{
         $key = 'wx_access_token';
         $accessToken = Redis::get($key);
         if($accessToken){
-            echo 'Cache:';
+
         }else{
-            echo 'NoCache:';
             $url='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.env('WX_APPID').'&secret='.env('WX_SECRET').'';
             $response = file_get_contents($url);
             $arr = json_decode($response,true);
@@ -229,11 +227,38 @@ class WxController extends Controller{
         $res_str = $response->getBody();
         echo $res_str;
     }
-        //$response = $client->get(new Uri($url));
-        //$headers = $response->getHeaders();  //获取响应头像
-        //$file_info = $headers['Content-disposition'][0];
-        //$file_name = rtrim(substr($file_info,-20),'""');
-        //$new_file_name = 'weixin/' .substr(md5(time().mt_rand()),10,8).'_'.$file_name;
-        //$rs = Storage::put($new_file_name,$response->getBody());
+
+    /**openid群发*/
+    public function openiddo(Request $request){
+        $accessToken = $this->accessToken();
+        //获取测试号下所有用户的openid
+        $userurl = "https://api.weixin.qq.com/cgi-bin/user/get?access_token=$accessToken";
+        $info = file_get_contents($userurl);
+        $arrInfo = json_decode($info, true);
+//        var_dump($arrInfo);die;
+        $data = $arrInfo['data'];
+        $openid = $data['openid'];
+//        print_r($openid);die;
+        //调用接口根据openid群发
+        $msgurl = "https://api.weixin.qq.com/cgi-bin/message/mass/send?access_token=$accessToken";
+        $content = "好嗨呦";
+        $arr = array(
+            'touser'=>$openid,
+            'msgtype'=>"text",
+            'text'=>[
+                'content'=>$content,
+            ],
+        );
+        //print_r($arr);
+        $strjson = json_encode($arr,JSON_UNESCAPED_UNICODE);
+        $objurl = new Client();
+        $response = $objurl->request('POST',$msgurl,[
+            'body' => $strjson
+        ]);
+        $res_str = $response->getBody();
+        echo $res_str;
+//        return $res_str;
+    }
+
 }
 ?>
