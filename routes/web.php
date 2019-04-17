@@ -20,5 +20,7 @@ Route::post('valid','WxController@wxEvent');
 Route::any('accessToken','WxController@accessToken');
 Route::any('menu','WxController@menu');
 Route::any('openiddo','WxController@openiddo');
-Route::any('test','WxController@test');
-Route::any('notify','WxController@notify');
+
+//微信支付
+Route::get('test','WxController@test');           //消息群发
+Route::post('notify','WxController@notify');       //微信支付回调地址

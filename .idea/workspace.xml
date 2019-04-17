@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d01232-0061-4dc5-9d13-6bcdbdad1897" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/ErrorCodeController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/WXBizDataCryptController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery/jquery-1.12.4.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/weixin/qrcode.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/weixin/test.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/1809a.iml" afterPath="$PROJECT_DIR$/.idea/1809a.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/blade.xml" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
@@ -16,8 +11,13 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin/Controllers/PostController.php" afterPath="$PROJECT_DIR$/app/Admin/Controllers/PostController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Admin/routes.php" afterPath="$PROJECT_DIR$/app/Admin/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/ErrorCodeController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/ErrorCodeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WXBizDataCryptController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WXBizDataCryptController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/WxController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/WxController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/artisan" afterPath="$PROJECT_DIR$/artisan" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/jquery/jquery-1.12.4.min.js" afterPath="$PROJECT_DIR$/public/js/jquery/jquery-1.12.4.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/weixin/qrcode.js" afterPath="$PROJECT_DIR$/public/js/weixin/qrcode.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/weixin/test.blade.php" afterPath="$PROJECT_DIR$/resources/views/weixin/test.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/web.php" afterPath="$PROJECT_DIR$/routes/web.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +33,8 @@
       <file leaf-file-name="WxController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="264" column="72" lean-forward="true" selection-start-line="264" selection-start-column="72" selection-end-line="264" selection-end-column="72" />
+            <state relative-caret-position="121">
+              <caret line="391" column="44" lean-forward="false" selection-start-line="391" selection-start-column="44" selection-end-line="391" selection-end-column="44" />
               <folding>
                 <element signature="e#38#75#0#PHP" expanded="true" />
                 <element signature="e#323#384#0#PHP" expanded="false" />
@@ -42,30 +42,14 @@
                 <element signature="e#5980#6646#0#PHP" expanded="false" />
                 <element signature="e#6651#8744#0#PHP" expanded="false" />
                 <element signature="e#8768#9812#0#PHP" expanded="false" />
-                <element signature="e#11341#11830#0#PHP" expanded="false" />
-                <element signature="e#11835#13013#0#PHP" expanded="false" />
-                <element signature="e#13018#13151#0#PHP" expanded="false" />
-                <element signature="e#13156#13521#0#PHP" expanded="false" />
-                <element signature="e#13564#13867#0#PHP" expanded="false" />
-                <marker date="1555485282512" expanded="true" signature="1598:1928" ph="..." />
-                <marker date="1555485282512" expanded="true" signature="2240:2546" ph="..." />
-                <marker date="1555485282512" expanded="true" signature="4699:5028" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test.blade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/weixin/test.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2375">
-              <caret line="95" column="31" lean-forward="true" selection-start-line="95" selection-start-column="31" selection-end-line="95" selection-end-column="31" />
-              <folding>
-                <marker date="1555483316458" expanded="true" signature="31:74" ph="..." />
-                <marker date="1555483316458" expanded="true" signature="1568:1582" ph="..." />
-                <marker date="1555483316458" expanded="true" signature="1640:1656" ph="..." />
-                <marker date="1555483316458" expanded="true" signature="1747:1766" ph="..." />
-                <marker date="1555483316458" expanded="true" signature="2625:2634" ph="..." />
+                <element signature="e#11245#11734#0#PHP" expanded="false" />
+                <element signature="e#11739#12917#0#PHP" expanded="false" />
+                <element signature="e#12922#13055#0#PHP" expanded="false" />
+                <element signature="e#13060#13425#0#PHP" expanded="false" />
+                <element signature="e#13468#13771#0#PHP" expanded="false" />
+                <marker date="1555487228832" expanded="true" signature="1598:1928" ph="..." />
+                <marker date="1555487228832" expanded="true" signature="2240:2546" ph="..." />
+                <marker date="1555487228832" expanded="true" signature="4699:5028" ph="..." />
               </folding>
             </state>
           </provider>
@@ -75,7 +59,7 @@
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
-              <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+              <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -458,15 +442,15 @@
       <workItem from="1555375247326" duration="12386000" />
       <workItem from="1555410155871" duration="2862000" />
       <workItem from="1555423453300" duration="3070000" />
-      <workItem from="1555460949831" duration="8996000" />
+      <workItem from="1555460949831" duration="10877000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38846000" />
+    <option name="totallyTimeSpent" value="40727000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="1" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -521,7 +505,19 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/WxController.php</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/WxController.php</url>
+          <line>370</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -537,14 +533,14 @@
             <element signature="e#5980#6646#0#PHP" expanded="false" />
             <element signature="e#6651#8744#0#PHP" expanded="false" />
             <element signature="e#8768#9812#0#PHP" expanded="false" />
-            <element signature="e#11341#11830#0#PHP" expanded="false" />
-            <element signature="e#11835#13013#0#PHP" expanded="false" />
-            <element signature="e#13018#13151#0#PHP" expanded="false" />
-            <element signature="e#13156#13521#0#PHP" expanded="false" />
-            <element signature="e#13564#13867#0#PHP" expanded="false" />
-            <marker date="1555485282512" expanded="true" signature="1598:1928" ph="..." />
-            <marker date="1555485282512" expanded="true" signature="2240:2546" ph="..." />
-            <marker date="1555485282512" expanded="true" signature="4699:5028" ph="..." />
+            <element signature="e#11245#11734#0#PHP" expanded="false" />
+            <element signature="e#11739#12917#0#PHP" expanded="false" />
+            <element signature="e#12922#13055#0#PHP" expanded="false" />
+            <element signature="e#13060#13425#0#PHP" expanded="false" />
+            <element signature="e#13468#13771#0#PHP" expanded="false" />
+            <marker date="1555487228832" expanded="true" signature="1598:1928" ph="..." />
+            <marker date="1555487228832" expanded="true" signature="2240:2546" ph="..." />
+            <marker date="1555487228832" expanded="true" signature="4699:5028" ph="..." />
           </folding>
         </state>
       </provider>
@@ -576,14 +572,14 @@
             <element signature="e#5980#6646#0#PHP" expanded="false" />
             <element signature="e#6651#8744#0#PHP" expanded="false" />
             <element signature="e#8768#9812#0#PHP" expanded="false" />
-            <element signature="e#11341#11830#0#PHP" expanded="false" />
-            <element signature="e#11835#13013#0#PHP" expanded="false" />
-            <element signature="e#13018#13151#0#PHP" expanded="false" />
-            <element signature="e#13156#13521#0#PHP" expanded="false" />
-            <element signature="e#13564#13867#0#PHP" expanded="false" />
-            <marker date="1555485282512" expanded="true" signature="1598:1928" ph="..." />
-            <marker date="1555485282512" expanded="true" signature="2240:2546" ph="..." />
-            <marker date="1555485282512" expanded="true" signature="4699:5028" ph="..." />
+            <element signature="e#11245#11734#0#PHP" expanded="false" />
+            <element signature="e#11739#12917#0#PHP" expanded="false" />
+            <element signature="e#12922#13055#0#PHP" expanded="false" />
+            <element signature="e#13060#13425#0#PHP" expanded="false" />
+            <element signature="e#13468#13771#0#PHP" expanded="false" />
+            <marker date="1555487228832" expanded="true" signature="1598:1928" ph="..." />
+            <marker date="1555487228832" expanded="true" signature="2240:2546" ph="..." />
+            <marker date="1555487228832" expanded="true" signature="4699:5028" ph="..." />
           </folding>
         </state>
       </provider>
@@ -599,14 +595,14 @@
             <element signature="e#5980#6646#0#PHP" expanded="false" />
             <element signature="e#6651#8744#0#PHP" expanded="false" />
             <element signature="e#8768#9812#0#PHP" expanded="false" />
-            <element signature="e#11341#11830#0#PHP" expanded="false" />
-            <element signature="e#11835#13013#0#PHP" expanded="false" />
-            <element signature="e#13018#13151#0#PHP" expanded="false" />
-            <element signature="e#13156#13521#0#PHP" expanded="false" />
-            <element signature="e#13564#13867#0#PHP" expanded="false" />
-            <marker date="1555485282512" expanded="true" signature="1598:1928" ph="..." />
-            <marker date="1555485282512" expanded="true" signature="2240:2546" ph="..." />
-            <marker date="1555485282512" expanded="true" signature="4699:5028" ph="..." />
+            <element signature="e#11245#11734#0#PHP" expanded="false" />
+            <element signature="e#11739#12917#0#PHP" expanded="false" />
+            <element signature="e#12922#13055#0#PHP" expanded="false" />
+            <element signature="e#13060#13425#0#PHP" expanded="false" />
+            <element signature="e#13468#13771#0#PHP" expanded="false" />
+            <marker date="1555487228832" expanded="true" signature="1598:1928" ph="..." />
+            <marker date="1555487228832" expanded="true" signature="2240:2546" ph="..." />
+            <marker date="1555487228832" expanded="true" signature="4699:5028" ph="..." />
           </folding>
         </state>
       </provider>
@@ -622,14 +618,14 @@
             <element signature="e#5980#6646#0#PHP" expanded="false" />
             <element signature="e#6651#8744#0#PHP" expanded="false" />
             <element signature="e#8768#9812#0#PHP" expanded="false" />
-            <element signature="e#11341#11830#0#PHP" expanded="false" />
-            <element signature="e#11835#13013#0#PHP" expanded="false" />
-            <element signature="e#13018#13151#0#PHP" expanded="false" />
-            <element signature="e#13156#13521#0#PHP" expanded="false" />
-            <element signature="e#13564#13867#0#PHP" expanded="false" />
-            <marker date="1555485282512" expanded="true" signature="1598:1928" ph="..." />
-            <marker date="1555485282512" expanded="true" signature="2240:2546" ph="..." />
-            <marker date="1555485282512" expanded="true" signature="4699:5028" ph="..." />
+            <element signature="e#11245#11734#0#PHP" expanded="false" />
+            <element signature="e#11739#12917#0#PHP" expanded="false" />
+            <element signature="e#12922#13055#0#PHP" expanded="false" />
+            <element signature="e#13060#13425#0#PHP" expanded="false" />
+            <element signature="e#13468#13771#0#PHP" expanded="false" />
+            <marker date="1555487228832" expanded="true" signature="1598:1928" ph="..." />
+            <marker date="1555487228832" expanded="true" signature="2240:2546" ph="..." />
+            <marker date="1555487228832" expanded="true" signature="4699:5028" ph="..." />
           </folding>
         </state>
       </provider>
@@ -692,14 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/weixin/test.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2375">
@@ -714,10 +702,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="23" column="6" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="264" column="72" lean-forward="true" selection-start-line="264" selection-start-column="72" selection-end-line="264" selection-end-column="72" />
+        <state relative-caret-position="121">
+          <caret line="391" column="44" lean-forward="false" selection-start-line="391" selection-start-column="44" selection-end-line="391" selection-end-column="44" />
           <folding>
             <element signature="e#38#75#0#PHP" expanded="true" />
             <element signature="e#323#384#0#PHP" expanded="false" />
@@ -725,14 +721,14 @@
             <element signature="e#5980#6646#0#PHP" expanded="false" />
             <element signature="e#6651#8744#0#PHP" expanded="false" />
             <element signature="e#8768#9812#0#PHP" expanded="false" />
-            <element signature="e#11341#11830#0#PHP" expanded="false" />
-            <element signature="e#11835#13013#0#PHP" expanded="false" />
-            <element signature="e#13018#13151#0#PHP" expanded="false" />
-            <element signature="e#13156#13521#0#PHP" expanded="false" />
-            <element signature="e#13564#13867#0#PHP" expanded="false" />
-            <marker date="1555485282512" expanded="true" signature="1598:1928" ph="..." />
-            <marker date="1555485282512" expanded="true" signature="2240:2546" ph="..." />
-            <marker date="1555485282512" expanded="true" signature="4699:5028" ph="..." />
+            <element signature="e#11245#11734#0#PHP" expanded="false" />
+            <element signature="e#11739#12917#0#PHP" expanded="false" />
+            <element signature="e#12922#13055#0#PHP" expanded="false" />
+            <element signature="e#13060#13425#0#PHP" expanded="false" />
+            <element signature="e#13468#13771#0#PHP" expanded="false" />
+            <marker date="1555487228832" expanded="true" signature="1598:1928" ph="..." />
+            <marker date="1555487228832" expanded="true" signature="2240:2546" ph="..." />
+            <marker date="1555487228832" expanded="true" signature="4699:5028" ph="..." />
           </folding>
         </state>
       </provider>
