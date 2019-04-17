@@ -261,9 +261,8 @@ class WxController extends Controller{
         echo $res_str;
     }
 
-    public $weixin_unifiedorder_url = 'https://api.mch.weixin.qq.com/unifiedorder';        // 统一下单接口
+    public $weixin_unifiedorder_url = 'https://api.mch.weixin.qq.com/pay/unifiedorder';        // 统一下单接口
     public $notify_url = 'http://1809lancong.comcto.com/notify'; // 支付回调
-
     public function test(){
         $total_fee = 1;         //用户要支付的总金额
         $order=DB::table('shop_order')->first();
@@ -280,15 +279,18 @@ class WxController extends Controller{
             'notify_url'    => $this->notify_url,        //通知回调地址
             'trade_type'    => 'NATIVE'                         // 交易类型
         ];
+//        print_r($order_info);die;
         $this->values = [];
         $this->values = $order_info;
         $this->SetSign();
         $xml = $this->ToXml();      //将数组转换为XML
+//        print_r($xml);die;
         $rs = $this->postXmlCurl($xml, $this->weixin_unifiedorder_url, $useCert = false, $second = 30);
         $data =  simplexml_load_string($rs);
         $data = [
             'code_url'  => $data->code_url
         ];
+//        print_r($data);die;
         return view('weixin.test',$data);
     }
 
@@ -390,6 +392,7 @@ class WxController extends Controller{
         $log_str = date('Y-m-d H:i:s') . "\n" . $data . "\n<<<<<<<";
         file_put_contents('logs/wx_pay_notice.log',$log_str,FILE_APPEND);
         $xml = simplexml_load_string($data);
+//        print_r($xml);die;
         if($xml->result_code=='SUCCESS' && $xml->return_code=='SUCCESS'){      //微信支付成功回调
             //验证签名
             $sign = true;
