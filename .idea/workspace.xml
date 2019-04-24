@@ -287,10 +287,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="WxController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="WxController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="1375">
               <caret line="145" column="32" lean-forward="true" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
               <folding>
                 <marker date="1556073262703" expanded="true" signature="1539:1869" ph="..." />
@@ -304,17 +304,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="detail.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/goods/detail.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="450">
+              <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
               <folding>
-                <marker date="1556076580579" expanded="true" signature="488:505" ph="..." />
-                <marker date="1556076580579" expanded="true" signature="535:557" ph="..." />
-                <marker date="1556076580579" expanded="true" signature="610:650" ph="..." />
-                <marker date="1556076580579" expanded="true" signature="1058:1070" ph="..." />
-                <marker date="1556076580579" expanded="true" signature="1140:1155" ph="..." />
+                <marker date="1556076712125" expanded="true" signature="488:505" ph="..." />
+                <marker date="1556076712125" expanded="true" signature="535:557" ph="..." />
+                <marker date="1556076712125" expanded="true" signature="610:650" ph="..." />
+                <marker date="1556076712125" expanded="true" signature="1126:1141" ph="..." />
               </folding>
             </state>
           </provider>
@@ -370,8 +369,8 @@
         <option value="&lt;999bc7ca-75e8-499e-aa45-f089c76b833d&gt;/1809a/app/Http/Controllers/WxController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WxController.php" />
-        <option value="$PROJECT_DIR$/resources/views/goods/detail.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/GoodsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/goods/detail.blade.php" />
       </list>
     </option>
   </component>
@@ -586,12 +585,12 @@
       <workItem from="1555460949831" duration="19411000" />
       <workItem from="1555633750740" duration="13009000" />
       <workItem from="1555857007221" duration="613000" />
-      <workItem from="1556066126981" duration="10434000" />
+      <workItem from="1556066126981" duration="10553000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73317000" />
+    <option name="totallyTimeSpent" value="73436000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -815,23 +814,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/goods/detail.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
-          <folding>
-            <marker date="1556076580579" expanded="true" signature="488:505" ph="..." />
-            <marker date="1556076580579" expanded="true" signature="535:557" ph="..." />
-            <marker date="1556076580579" expanded="true" signature="610:650" ph="..." />
-            <marker date="1556076580579" expanded="true" signature="1058:1070" ph="..." />
-            <marker date="1556076580579" expanded="true" signature="1140:1155" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="1375">
           <caret line="145" column="32" lean-forward="true" selection-start-line="145" selection-start-column="32" selection-end-line="145" selection-end-column="32" />
           <folding>
             <marker date="1556073262703" expanded="true" signature="1539:1869" ph="..." />
@@ -840,6 +825,19 @@
             <marker date="1556073262703" expanded="true" signature="5409:6193" ph="..." />
             <marker date="1556073262703" expanded="true" signature="5784:6162" ph="..." />
             <marker date="1556073262703" expanded="true" signature="5819:6124" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/goods/detail.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="35" lean-forward="true" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <marker date="1556076712125" expanded="true" signature="488:505" ph="..." />
+            <marker date="1556076712125" expanded="true" signature="535:557" ph="..." />
+            <marker date="1556076712125" expanded="true" signature="610:650" ph="..." />
+            <marker date="1556076712125" expanded="true" signature="1126:1141" ph="..." />
           </folding>
         </state>
       </provider>
