@@ -138,7 +138,7 @@ class WxController extends Controller{
                           <Articles>
                             <item>
                               <Title><![CDATA[$title]]></Title>
-                              <Description><![CDATA[$good_name]></Description>
+                              <Description><![CDATA[$good_name]]></Description>
                               <PicUrl><![CDATA[$picurl]]></PicUrl>
                               <Url><![CDATA[$url]]></Url>
                             </item>
