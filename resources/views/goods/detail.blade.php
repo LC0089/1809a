@@ -20,5 +20,22 @@
                 <td><img class="lazy" src="{{URL::asset('goodsimg/'.$good->goods_img)}}"></a> </td>
             </tr>
         </table>
+        <script src="js/jquery/jquery-1.12.4.min.js"></script>
+        <script src="http://res2.wx.qq.com/open/js/jweixin-1.4.0.js "></script>
 </body>
 </html>
+<script>
+    wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
+        $('#btn2').click(function() {
+            wx.updateAppMessageShareData({
+                title: '秀儿', // 分享标题
+                desc: '猜一猜', // 分享描述
+                link: "{{$url}}", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                imgUrl: '{{$picurl}}', // 分享图标
+                success: function (msg) {
+                    alert('成功')
+                }
+            })
+        })
+    });
+</script>

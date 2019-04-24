@@ -13,6 +13,8 @@ class GoodsController extends Controller{
      */
     public function goodDetail(){
         $good = DB::table('shop_goods')->where('goods_up',1)->orderBy('create_time','desc')->first();
-        return view('goods.detail',['good'=>$good]);
+        $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
+        $url = "http://1809lancong.comcto.com/valid";
+        return view('goods.detail',['good'=>$good,'picurl'=>$picurl,'url'=>$url]);
     }
 }
