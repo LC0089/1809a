@@ -31,9 +31,8 @@ class GoodsController extends Controller{
 //            'jsApiList'=>['chooseImage'],  //要使用的表功能
         ];
         $data = [
-            'config'=>$js_config
+            'js_config'=>$js_config
         ];
-
         $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
         $url = "http://1809lancong.comcto.com/goodDetail";
         $title = "秀儿";
