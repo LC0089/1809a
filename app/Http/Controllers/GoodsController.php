@@ -18,9 +18,7 @@ class GoodsController extends Controller{
         $nonceStr = Str::random(10);
         $timestamp = time();
         $current_cul = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
-
         $string1 = "jsapi_ticket=$jsapi_ticket&noncestr=$nonceStr&timestamp=$timestamp&url=$current_cul";
-//        print_r($string1);die;
         $sign = sha1($string1);
 //        dump($sign);die;
         $js_config = [
@@ -31,7 +29,7 @@ class GoodsController extends Controller{
 //            'jsApiList'=>['chooseImage'],  //要使用的表功能
         ];
 //        print_r($js_config);die;
-        $picurl = "http://1809lancong.comcto.com/goodsimg/".$good->goods_img;
+        $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
         $url = "http://1809lancong.comcto.com/goodDetail";
         $title = "秀儿";
         $desc = "啊哈哈哈";
