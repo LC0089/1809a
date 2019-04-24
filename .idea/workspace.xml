@@ -290,11 +290,11 @@
       <file leaf-file-name="GoodsController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GoodsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+            <state relative-caret-position="496">
+              <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
               <folding>
                 <element signature="e#38#75#0#PHP" expanded="true" />
-                <element signature="e#2349#3019#0#PHP" expanded="false" />
+                <element signature="e#2350#3020#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -303,7 +303,7 @@
       <file leaf-file-name="WxController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-825">
+            <state relative-caret-position="75">
               <caret line="9" column="6" lean-forward="false" selection-start-line="168" selection-start-column="4" selection-end-line="185" selection-end-column="5" />
               <folding>
                 <element signature="e#7145#7815#0#PHP" expanded="false" />
@@ -594,12 +594,12 @@
       <workItem from="1555460949831" duration="19411000" />
       <workItem from="1555633750740" duration="13009000" />
       <workItem from="1555857007221" duration="613000" />
-      <workItem from="1556066126981" duration="13240000" />
+      <workItem from="1556066126981" duration="13664000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76123000" />
+    <option name="totallyTimeSpent" value="76547000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -839,7 +839,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-825">
+        <state relative-caret-position="75">
           <caret line="9" column="6" lean-forward="false" selection-start-line="168" selection-start-column="4" selection-end-line="185" selection-end-column="5" />
           <folding>
             <element signature="e#7145#7815#0#PHP" expanded="false" />
@@ -855,11 +855,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GoodsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="36" column="23" lean-forward="true" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
+        <state relative-caret-position="496">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
           <folding>
             <element signature="e#38#75#0#PHP" expanded="true" />
-            <element signature="e#2349#3019#0#PHP" expanded="false" />
+            <element signature="e#2350#3020#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
