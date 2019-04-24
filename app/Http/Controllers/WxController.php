@@ -32,11 +32,9 @@ class WxController extends Controller{
         $url="https://api.weixin.qq.com/cgi-bin/user/info?access_token=$accessToken&openid=$openid&lang=zh_CN";
         $response = file_get_contents($url);
         $arr = json_decode($response,true);
-//        print_r($arr);die;
         $name = $arr['nickname'];
         $openid = $arr['openid'];
         $date = DB::table('user')->where('openid',$openid)->count();
-//        print_r($date);die;
 
         if($Event=='subscribe'){
             if($date){
@@ -125,9 +123,12 @@ class WxController extends Controller{
                   <Content><![CDATA[$string]]></Content>
                 </xml>";
                 echo $str;
-            }else if(strpos($Content,"最新商品")){
-                $good = DB::table('shop_goods')->orderBy('create_time',desc)->limit(5)->get();
-                print_r($good);die;
+            }else if($Content=="最新商品"){
+                $good = DB::table('shop_goods')->where('goods_up',1)->orderBy('create_time','desc')->limit(5)->get()->toArray();
+                $good_name = $good->goods_name;
+                $title = "秀儿";
+                $picurl = "http://1809lancong.comcto.com/$good->goods_img";
+                $url = "http://gj.164133.com/";
                 $str = "<xml>
                           <ToUserName><![CDATA[$FromUserName]]></ToUserName>
                           <FromUserName><![CDATA[$ToUserName]]></FromUserName>
@@ -136,10 +137,10 @@ class WxController extends Controller{
                           <ArticleCount>1</ArticleCount>
                           <Articles>
                             <item>
-                              <Title><![CDATA[title1]]></Title>
-                              <Description><![CDATA[description1]]></Description>
-                              <PicUrl><![CDATA[picurl]]></PicUrl>
-                              <Url><![CDATA[url]]></Url>
+                              <Title><![CDATA[$title]]></Title>
+                              <Description><![CDATA[$good_name]></Description>
+                              <PicUrl><![CDATA[$picurl]]></PicUrl>
+                              <Url><![CDATA[$url]]></Url>
                             </item>
                           </Articles>
                         </xml>";
@@ -170,7 +171,7 @@ class WxController extends Controller{
         $key = 'wx_access_token';
         $accessToken = Redis::get($key);
         if($accessToken){
-
+            return $accessToken;
         }else{
             $url='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.env('WX_APPID').'&secret='.env('WX_SECRET').'';
             $response = file_get_contents($url);
@@ -179,10 +180,9 @@ class WxController extends Controller{
 //            print_r($arr);die;
             Redis::set($key,$access);
             Redis::expire($key,3600);
-           $accessToken = $arr['access_token'];
-//        print_r($accessToken);
+            $accessToken = $arr['access_token'];
+            return $accessToken;
         }
-        return $accessToken;
     }
     public function menu(){
         $accessToken = $this->accessToken();
