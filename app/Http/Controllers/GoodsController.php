@@ -31,9 +31,6 @@ class GoodsController extends Controller{
 //            'jsApiList'=>['chooseImage'],  //要使用的表功能
         ];
 //        print_r($js_config);die;
-        $data = [
-            'config'=>$js_config
-        ];
         $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
         $url = "http://1809lancong.comcto.com/goodDetail";
         $title = "秀儿";
@@ -44,7 +41,7 @@ class GoodsController extends Controller{
             'title'=>$title,
             'desc'=>$desc
         ];
-        return view('goods.detail',['good'=>$good,'data'=>$data,'arr'=>$arr]);
+        return view('goods.detail',['good'=>$good,'js_config'=>$js_config,'arr'=>$arr]);
     }
 
     public function JsapiTicket()

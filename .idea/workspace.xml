@@ -290,11 +290,11 @@
       <file leaf-file-name="GoodsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GoodsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            <state relative-caret-position="296">
+              <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
                 <element signature="e#38#75#0#PHP" expanded="true" />
-                <element signature="e#2412#3082#0#PHP" expanded="false" />
+                <element signature="e#2360#3030#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -303,7 +303,7 @@
       <file leaf-file-name="WxController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="-825">
               <caret line="9" column="6" lean-forward="false" selection-start-line="168" selection-start-column="4" selection-end-line="185" selection-end-column="5" />
               <folding>
                 <element signature="e#7145#7815#0#PHP" expanded="false" />
@@ -322,19 +322,19 @@
         <entry file="file://$PROJECT_DIR$/resources/views/goods/detail.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
-                <marker date="1556078804608" expanded="true" signature="488:505" ph="..." />
-                <marker date="1556078804608" expanded="true" signature="535:557" ph="..." />
-                <marker date="1556078804608" expanded="true" signature="610:650" ph="..." />
-                <marker date="1556078804608" expanded="true" signature="986:1002" ph="..." />
-                <marker date="1556078804608" expanded="true" signature="1044:1064" ph="..." />
-                <marker date="1556078804608" expanded="true" signature="1105:1124" ph="..." />
-                <marker date="1556078804608" expanded="true" signature="1166:1186" ph="..." />
-                <marker date="1556078804608" expanded="true" signature="1378:1391" ph="..." />
-                <marker date="1556078804608" expanded="true" signature="1429:1441" ph="..." />
-                <marker date="1556078804608" expanded="true" signature="1479:1490" ph="..." />
-                <marker date="1556078804608" expanded="true" signature="1560:1574" ph="..." />
+                <marker date="1556083416436" expanded="true" signature="488:505" ph="..." />
+                <marker date="1556083416436" expanded="true" signature="535:557" ph="..." />
+                <marker date="1556083416436" expanded="true" signature="610:650" ph="..." />
+                <marker date="1556083416436" expanded="true" signature="986:1005" ph="..." />
+                <marker date="1556083416436" expanded="true" signature="1047:1070" ph="..." />
+                <marker date="1556083416436" expanded="true" signature="1111:1133" ph="..." />
+                <marker date="1556083416436" expanded="true" signature="1175:1198" ph="..." />
+                <marker date="1556083416436" expanded="true" signature="1390:1403" ph="..." />
+                <marker date="1556083416436" expanded="true" signature="1441:1453" ph="..." />
+                <marker date="1556083416436" expanded="true" signature="1491:1502" ph="..." />
+                <marker date="1556083416436" expanded="true" signature="1572:1586" ph="..." />
               </folding>
             </state>
           </provider>
@@ -378,8 +378,8 @@
         <option value="&lt;999bc7ca-75e8-499e-aa45-f089c76b833d&gt;/1809a/app/Http/Controllers/WxController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WxController.php" />
-        <option value="$PROJECT_DIR$/resources/views/goods/detail.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/GoodsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/goods/detail.blade.php" />
       </list>
     </option>
   </component>
@@ -594,12 +594,12 @@
       <workItem from="1555460949831" duration="19411000" />
       <workItem from="1555633750740" duration="13009000" />
       <workItem from="1555857007221" duration="613000" />
-      <workItem from="1556066126981" duration="12718000" />
+      <workItem from="1556066126981" duration="12823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75601000" />
+    <option name="totallyTimeSpent" value="75706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -819,18 +819,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GoodsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="33" column="17" lean-forward="true" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        <state relative-caret-position="296">
+          <caret line="35" column="22" lean-forward="true" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding>
             <element signature="e#38#75#0#PHP" expanded="true" />
-            <element signature="e#2412#3082#0#PHP" expanded="false" />
+            <element signature="e#2360#3030#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="-825">
           <caret line="9" column="6" lean-forward="false" selection-start-line="168" selection-start-column="4" selection-end-line="185" selection-end-column="5" />
           <folding>
             <element signature="e#7145#7815#0#PHP" expanded="false" />
@@ -847,19 +847,19 @@
     <entry file="file://$PROJECT_DIR$/resources/views/goods/detail.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
-            <marker date="1556078804608" expanded="true" signature="488:505" ph="..." />
-            <marker date="1556078804608" expanded="true" signature="535:557" ph="..." />
-            <marker date="1556078804608" expanded="true" signature="610:650" ph="..." />
-            <marker date="1556078804608" expanded="true" signature="986:1002" ph="..." />
-            <marker date="1556078804608" expanded="true" signature="1044:1064" ph="..." />
-            <marker date="1556078804608" expanded="true" signature="1105:1124" ph="..." />
-            <marker date="1556078804608" expanded="true" signature="1166:1186" ph="..." />
-            <marker date="1556078804608" expanded="true" signature="1378:1391" ph="..." />
-            <marker date="1556078804608" expanded="true" signature="1429:1441" ph="..." />
-            <marker date="1556078804608" expanded="true" signature="1479:1490" ph="..." />
-            <marker date="1556078804608" expanded="true" signature="1560:1574" ph="..." />
+            <marker date="1556083416436" expanded="true" signature="488:505" ph="..." />
+            <marker date="1556083416436" expanded="true" signature="535:557" ph="..." />
+            <marker date="1556083416436" expanded="true" signature="610:650" ph="..." />
+            <marker date="1556083416436" expanded="true" signature="986:1005" ph="..." />
+            <marker date="1556083416436" expanded="true" signature="1047:1070" ph="..." />
+            <marker date="1556083416436" expanded="true" signature="1111:1133" ph="..." />
+            <marker date="1556083416436" expanded="true" signature="1175:1198" ph="..." />
+            <marker date="1556083416436" expanded="true" signature="1390:1403" ph="..." />
+            <marker date="1556083416436" expanded="true" signature="1441:1453" ph="..." />
+            <marker date="1556083416436" expanded="true" signature="1491:1502" ph="..." />
+            <marker date="1556083416436" expanded="true" signature="1572:1586" ph="..." />
           </folding>
         </state>
       </provider>
