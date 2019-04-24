@@ -30,6 +30,7 @@ class GoodsController extends Controller{
         ];
 //        print_r($js_config);die;
         $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
+//        print_r($picurl);die;
         $url = "http://1809lancong.comcto.com/goodDetail";
         $title = "秀儿";
         $desc = "啊哈哈哈";
