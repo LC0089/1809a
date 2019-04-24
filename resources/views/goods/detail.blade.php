@@ -25,15 +25,15 @@
 </body>
 </html>
 <script>
-    wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
-            wx.updateAppMessageShareData({
-                title: "秀儿", // 分享标题
-                desc: "哈喽", // 分享描述
-                link: "{{$data['url']}}", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-                imgUrl: '{{$data['picurl']}}', // 分享图标
-                success: function (msg) {
-                    alert('设置成功')
-                }
-            })
-    });
+    {{--wx.ready(function () {   //需在用户可能点击分享按钮前就先调用--}}
+            {{--wx.updateAppMessageShareData({--}}
+                {{--title: "秀儿", // 分享标题--}}
+                {{--desc: "哈喽", // 分享描述--}}
+                {{--link: "{{$data['url']}}", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致--}}
+                {{--imgUrl: '{{$data['picurl']}}', // 分享图标--}}
+                {{--success: function (msg) {--}}
+                    {{--alert('设置成功')--}}
+                {{--}--}}
+            {{--})--}}
+    {{--});--}}
 </script>
