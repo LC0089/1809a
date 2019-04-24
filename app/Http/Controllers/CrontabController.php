@@ -8,7 +8,9 @@ use GuzzleHttp\Client;
 use App\Http\Controllers\WXBizDataCryptController;
 use Illuminate\Support\Str;
 class CrontabController extends Controller{
-
+    /**
+     * 删除过期订单
+     */
     public function delOrder(){
         $order = DB::table('shop_order')->get()->toArray();
 //        print_r($order);die;

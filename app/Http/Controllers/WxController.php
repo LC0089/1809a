@@ -428,5 +428,15 @@ class WxController extends Controller{
         echo $response;
     }
 
+    /**
+     * 用户授权
+     */
+    public function give(){
+        $appID = "wxf5563dd4e9bb4d40";
+        $scope = "snsapi_userinfo";
+        $url = urlencode("http://1809lancong.comcto.com/valid");
+        $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appID&redirect_uri=$url&response_type=code&scope=$scope&state=STATE#wechat_redirect";
+        return view('weixin.give',['url'=>$url]);
+    }
 }
 ?>
