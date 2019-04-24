@@ -125,6 +125,25 @@ class WxController extends Controller{
                   <Content><![CDATA[$string]]></Content>
                 </xml>";
                 echo $str;
+            }else if(strpos($Content,"最新商品")){
+                $good = DB::table('shop_goods')->orderBy('create_time',desc)->limit(5)->get();
+                print_r($good);die;
+                $str = "<xml>
+                          <ToUserName><![CDATA[$FromUserName]]></ToUserName>
+                          <FromUserName><![CDATA[$ToUserName]]></FromUserName>
+                          <CreateTime>$CreateTime</CreateTime>
+                          <MsgType><![CDATA[news]]></MsgType>
+                          <ArticleCount>1</ArticleCount>
+                          <Articles>
+                            <item>
+                              <Title><![CDATA[title1]]></Title>
+                              <Description><![CDATA[description1]]></Description>
+                              <PicUrl><![CDATA[picurl]]></PicUrl>
+                              <Url><![CDATA[url]]></Url>
+                            </item>
+                          </Articles>
+                        </xml>";
+                echo $str;
             }else{
                 $data = [
                     'openid'=>$openid,
