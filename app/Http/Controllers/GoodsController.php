@@ -24,6 +24,7 @@ class GoodsController extends Controller{
             'title'=>$title,
             'desc'=>$desc
         ];
+        print_r($data['title']);die;
         return view('goods.detail',['good'=>$good,'data'=>$data]);
     }
 }
