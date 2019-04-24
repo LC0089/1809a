@@ -26,7 +26,6 @@
 </html>
 <script>
     wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
-        $('#btn2').click(function() {
             wx.updateAppMessageShareData({
                 title: "{{$data['title']}}", // 分享标题
                 desc: "{{$data['desc']}}", // 分享描述
@@ -36,6 +35,5 @@
                     alert('设置成功')
                 }
             })
-        })
     });
 </script>
