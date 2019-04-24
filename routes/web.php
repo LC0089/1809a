@@ -24,3 +24,6 @@ Route::any('openiddo','WxController@openiddo');
 //微信支付
 Route::any('test','WxController@test');           //消息群发
 Route::any('notify','WxController@notify');       //微信支付回调地址
+
+
+Route::any('goodDetail','GoodsController@goodDetail');

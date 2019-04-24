@@ -9,9 +9,10 @@ use App\Http\Controllers\WXBizDataCryptController;
 use Illuminate\Support\Str;
 class GoodsController extends Controller{
     /**
-     * 商品详情
+     * 最新商品详情
      */
     public function goodDetail(){
-        $data = DB::table('shop_goods')->get();
+        $good = DB::table('shop_goods')->where('goods_up',1)->orderBy('create_time','desc')->first();
+        return view('goods.detail',['good'=>$good]);
     }
 }

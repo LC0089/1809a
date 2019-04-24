@@ -127,8 +127,8 @@ class WxController extends Controller{
                 $good = DB::table('shop_goods')->where('goods_up',1)->orderBy('create_time','desc')->first();
                 $good_name = $good->goods_name;
                 $title = "秀儿";
-                $picurl = "http://1809lancong.comcto.com/$good->goods_img";
-                $url = "http://gj.164133.com/";
+                $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
+                $url = "http://1809lancong.comcto.com/goodDetail";
                 $str = "<xml>
                           <ToUserName><![CDATA[$FromUserName]]></ToUserName>
                           <FromUserName><![CDATA[$ToUserName]]></FromUserName>
