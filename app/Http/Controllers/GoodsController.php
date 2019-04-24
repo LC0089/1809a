@@ -30,8 +30,9 @@ class GoodsController extends Controller{
             'signature'=>$sign,  //签名
 //            'jsApiList'=>['chooseImage'],  //要使用的表功能
         ];
+//        print_r($js_config);die;
         $data = [
-            'js_config'=>$js_config
+            'config'=>$js_config
         ];
         $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
         $url = "http://1809lancong.comcto.com/goodDetail";
