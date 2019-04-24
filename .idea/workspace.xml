@@ -2,6 +2,261 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69d01232-0061-4dc5-9d13-6bcdbdad1897" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Http/Controllers/GoodsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181121/4fae0076d493cd6670ce5c0ca9d9e6d8.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181121/4fae0076d493cd6670ce5c0ca9d9e6d8.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181121/a80e6e6de800e97e6a4e4c5f321a0a83.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181121/a80e6e6de800e97e6a4e4c5f321a0a83.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181121/b0916f6e3af162a91b2710778bac0df7.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181121/b0916f6e3af162a91b2710778bac0df7.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181124/0a494d386284a5dfaeeee217c9736ede.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/0a494d386284a5dfaeeee217c9736ede.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181124/5e2103d52eeef99aa880cb37d0185db9.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/5e2103d52eeef99aa880cb37d0185db9.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181124/6c5c609816dc6147458a711674a0321a.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/6c5c609816dc6147458a711674a0321a.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181124/6d0b2c98d07c2f390df5a7fc84173af8.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/6d0b2c98d07c2f390df5a7fc84173af8.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181124/8e55bd6955d64e97b3255649b573222a.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/8e55bd6955d64e97b3255649b573222a.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181124/9b542a83e14775f75a3d9180b27d5d2f.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/9b542a83e14775f75a3d9180b27d5d2f.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181124/bd11396e346dc19753fb209ced3fa131.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/bd11396e346dc19753fb209ced3fa131.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181124/d0584790dcca84cb7ad02d7f72bab582.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/d0584790dcca84cb7ad02d7f72bab582.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181124/fe959bea90040d22529d224c04fa9cd6.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181124/fe959bea90040d22529d224c04fa9cd6.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181126/2b07a602d276b5b32a4984576e1f8328.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181126/2b07a602d276b5b32a4984576e1f8328.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181126/78c251b88e801d3984943bfa13a520c4.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181126/78c251b88e801d3984943bfa13a520c4.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/009e3e7d0f9ad47033cf0546c8041d26.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/009e3e7d0f9ad47033cf0546c8041d26.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/044782e0566e111a7a055b957eb1eb4c.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/044782e0566e111a7a055b957eb1eb4c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/04c57bf4578e7fe19637803b82c4cf9b.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/04c57bf4578e7fe19637803b82c4cf9b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/056afb56003e05370496f8a4e1c136d0.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/056afb56003e05370496f8a4e1c136d0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/05a6715144876a444c6dac275fc27c20.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/05a6715144876a444c6dac275fc27c20.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/07a5c1c7bead1d7bda4ce280edee1116.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/07a5c1c7bead1d7bda4ce280edee1116.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/0b9ccb8ec100864f0556cc0a00f9cf37.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/0b9ccb8ec100864f0556cc0a00f9cf37.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/109b03fcb6b8b6fa5a12d78cd9695610.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/109b03fcb6b8b6fa5a12d78cd9695610.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/12cd58332ca929aa51319ae42e8c7e1b.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/12cd58332ca929aa51319ae42e8c7e1b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/134c4b30b060c72a7f92299f77cd1102.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/134c4b30b060c72a7f92299f77cd1102.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/145b0067052990ec983f7b16bfbcfc48.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/145b0067052990ec983f7b16bfbcfc48.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/15419cc80b0ce1ff07f49bc91c73c64b.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/15419cc80b0ce1ff07f49bc91c73c64b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/158ae1f2f9c7ae340f4a565fb34d6c72.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/158ae1f2f9c7ae340f4a565fb34d6c72.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/16db9a61880e478e0bfc8f66ce990a6e.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/16db9a61880e478e0bfc8f66ce990a6e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1736f6e83385fe497074908212e87989.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1736f6e83385fe497074908212e87989.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/185ea5f0fd02f378aec6c644d800c1a5.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/185ea5f0fd02f378aec6c644d800c1a5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/18ade0f979af3522e42b88523044f9cf.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/18ade0f979af3522e42b88523044f9cf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1cc85d803f4be6d6e0a6ae6035ace9a9.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1cc85d803f4be6d6e0a6ae6035ace9a9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1f1d36ff169c656aafdf8f79a9e93723.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1f1d36ff169c656aafdf8f79a9e93723.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/1ff1be8ab9ddc3be52a16bf0bb180224.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/1ff1be8ab9ddc3be52a16bf0bb180224.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/238633d3aa74bc8f6902e027cf14ff95.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/238633d3aa74bc8f6902e027cf14ff95.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2720a0ad1e4879288ed3b917224c8a3b.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2720a0ad1e4879288ed3b917224c8a3b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/289ae010da968f619ef6fd35da31e926.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/289ae010da968f619ef6fd35da31e926.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2be4192c2bd731ffb5253e6f47a07f69.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2be4192c2bd731ffb5253e6f47a07f69.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2ea1cd8af3e587674241cd352799fce2.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2ea1cd8af3e587674241cd352799fce2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/2fc4018f8e5f1beea59372370c951c15.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/2fc4018f8e5f1beea59372370c951c15.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/3ab4f93302364d87f74eec32817f546f.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/3ab4f93302364d87f74eec32817f546f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/3c439011e1c2d0ddbbe17a4106d0e78d.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/3c439011e1c2d0ddbbe17a4106d0e78d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/3daa63c564e131438fa8f14fc767fc40.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/3daa63c564e131438fa8f14fc767fc40.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/4018a1f3899797dcc58e0a35759e62a4.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/4018a1f3899797dcc58e0a35759e62a4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/412fccf2fa7d99cf9a0a4452c25fa93a.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/412fccf2fa7d99cf9a0a4452c25fa93a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/442939b5048a5e8951ea159a79157e63.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/442939b5048a5e8951ea159a79157e63.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/44b52db925c3b0aed2a3e7d06f8498cc.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/44b52db925c3b0aed2a3e7d06f8498cc.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/489040fd7a459a5b5439336acb7537fa.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/489040fd7a459a5b5439336acb7537fa.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/4db33fa372444793f9eeae8e5d8d55ec.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/4db33fa372444793f9eeae8e5d8d55ec.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/4fee03213c7822f43f7905b94f0e3927.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/4fee03213c7822f43f7905b94f0e3927.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5528777bc2ae96bf1b0a9567e4d483f2.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5528777bc2ae96bf1b0a9567e4d483f2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/58148407529daa2b000efd64ad84c604.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/58148407529daa2b000efd64ad84c604.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/58d83e42bb81496cde24c47f2e7b92d0.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/58d83e42bb81496cde24c47f2e7b92d0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5b3592a4fd32a8ee2e49226a38296967.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5b3592a4fd32a8ee2e49226a38296967.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5d70d13c976c401ee09849ec30ee00cf.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5d70d13c976c401ee09849ec30ee00cf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5e5cfe50ffd60d0b1c37fa4de5489b1a.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5e5cfe50ffd60d0b1c37fa4de5489b1a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/5f80c655572a5b4c1688649c13564662.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/5f80c655572a5b4c1688649c13564662.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/646f6093fc562868b2561a81e2714c50.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/646f6093fc562868b2561a81e2714c50.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/66d10eb278de4cc359f9faa1a3ebd9e6.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/66d10eb278de4cc359f9faa1a3ebd9e6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/695cdd981d61079f7987944b109b6c44.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/695cdd981d61079f7987944b109b6c44.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/69fc242a5672f144a5ebbe002ec34802.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/69fc242a5672f144a5ebbe002ec34802.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/6b85d5204ffc758f380b7bf401e275d7.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/6b85d5204ffc758f380b7bf401e275d7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/723dd40ca7d42342d2e358805940d99b.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/723dd40ca7d42342d2e358805940d99b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/76ecfb1f70075885d7b57cf77339e986.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/76ecfb1f70075885d7b57cf77339e986.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/76fb19b106b723275506ecaa24c59f4b.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/76fb19b106b723275506ecaa24c59f4b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7a87b13f7f15d86347ac3c388509604f.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7a87b13f7f15d86347ac3c388509604f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7b095500adf6c1edd282c30f53074242.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7b095500adf6c1edd282c30f53074242.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7c17fdba7951ddeaeb7eff9e0c022e1f.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7c17fdba7951ddeaeb7eff9e0c022e1f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/7fa0edc5b81cfc3f86cdbe17cff52c91.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/7fa0edc5b81cfc3f86cdbe17cff52c91.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/80fed78b98d94d09360f098c0c8fb7de.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/80fed78b98d94d09360f098c0c8fb7de.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8553b72989e9aeeb5bb1842a551a80a6.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8553b72989e9aeeb5bb1842a551a80a6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8b49d682195bd45014015b8b86faa34f.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8b49d682195bd45014015b8b86faa34f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8dc2fce412faf0439b0c1b9183d884d8.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8dc2fce412faf0439b0c1b9183d884d8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/8de490c092088ff9f94e01782ad5e750.png" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/8de490c092088ff9f94e01782ad5e750.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/986ca8f470fec9f843295981fe47280d.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/986ca8f470fec9f843295981fe47280d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/990e2f50f457b70572d9039625a53536.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/990e2f50f457b70572d9039625a53536.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/99373568dad2833fcdbc6c4e22c0fceb.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/99373568dad2833fcdbc6c4e22c0fceb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9a10688bbeacd9ef1d69b2c1afcfc36c.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9a10688bbeacd9ef1d69b2c1afcfc36c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9bf87bf0d6c6b78e23afcefd555f10b0.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9bf87bf0d6c6b78e23afcefd555f10b0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9e7ee20b8b3b0123d2c861c8b9399354.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9e7ee20b8b3b0123d2c861c8b9399354.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9ed4d8556daeb8b201a3bab0c1783978.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9ed4d8556daeb8b201a3bab0c1783978.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/9f5ce6e85c59a30d9a1f85fe696fc64e.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/9f5ce6e85c59a30d9a1f85fe696fc64e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a0211541a450630e28f4fd5dda13fb6c.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a0211541a450630e28f4fd5dda13fb6c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a1596385213e2c8108849edb72fd79c1.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a1596385213e2c8108849edb72fd79c1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a259285e3ea86e008fff5fe5f5390c0a.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a259285e3ea86e008fff5fe5f5390c0a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/a6e39ee0842b64819905e6f18d4e1bb7.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/a6e39ee0842b64819905e6f18d4e1bb7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ae7c4a68b4cc8ebe8a27c1cf6cfe45a8.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ae7c4a68b4cc8ebe8a27c1cf6cfe45a8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/b8081606b91c0f64da1937dbdd1d8e90.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/b8081606b91c0f64da1937dbdd1d8e90.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ba526a911ec60cfa1e054be25aedf012.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ba526a911ec60cfa1e054be25aedf012.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/bab7026ecfca755b7845ce99e2dd03f1.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/bab7026ecfca755b7845ce99e2dd03f1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/bad2c3cef7ba9afaad686a1ec01018e1.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/bad2c3cef7ba9afaad686a1ec01018e1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c380cb00d13a332fa95ea64c4432517f.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c380cb00d13a332fa95ea64c4432517f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c3c8133cb9682b306f1ac718ab9fc2c4.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c3c8133cb9682b306f1ac718ab9fc2c4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c3f572b733b0d287b27f67ad8e097692.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c3f572b733b0d287b27f67ad8e097692.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c4d5a1ce270cdecb12eea9c184ed29fb.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c4d5a1ce270cdecb12eea9c184ed29fb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/c6b93b13036df4e375bf66a88ee38f4f.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/c6b93b13036df4e375bf66a88ee38f4f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cd5e14dfad18673a452d1cfb03a1609d.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cd5e14dfad18673a452d1cfb03a1609d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cec0a3e1f890a499f24a9ec134db1294.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cec0a3e1f890a499f24a9ec134db1294.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cecc685aa9af9d3ab1de1b056fd31c1a.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cecc685aa9af9d3ab1de1b056fd31c1a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/cf06c62062d03ba621705562145242f5.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/cf06c62062d03ba621705562145242f5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/d05a09c00c708345d7a090c635450354.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/d05a09c00c708345d7a090c635450354.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/d0c0adadd0a16e429e8904a3af1a470e.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/d0c0adadd0a16e429e8904a3af1a470e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/d5fc161490a6372e7a4ff76c31bb94ed.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/d5fc161490a6372e7a4ff76c31bb94ed.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/dbad113ee4116ff4748a3588ac55ceb9.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/dbad113ee4116ff4748a3588ac55ceb9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ddcafcaf479518d128d786826af932a4.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ddcafcaf479518d128d786826af932a4.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/e4af8aa23a7133114cf3a56991af9879.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/e4af8aa23a7133114cf3a56991af9879.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/e4bc392c25020c4dd560b5756563798a.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/e4bc392c25020c4dd560b5756563798a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/eb9bb97cd8f29d7be1d408c01e46d1c8.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/eb9bb97cd8f29d7be1d408c01e46d1c8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ece1cd253f27e476b442814ebc23f6d5.PNG" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ece1cd253f27e476b442814ebc23f6d5.PNG" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/edf1e9262575b724447c2c9ad8d83666.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/edf1e9262575b724447c2c9ad8d83666.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/eee365a282360184d22ece137a8028f8.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/eee365a282360184d22ece137a8028f8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/ef2a89b7042820c9e2418041c6d0af76.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/ef2a89b7042820c9e2418041c6d0af76.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181129/f3e35c240c11cd5f4b4e9afe941ed0a4.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181129/f3e35c240c11cd5f4b4e9afe941ed0a4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181205/411bfbdd22ed14a87f3dcd8f595cafa1.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/411bfbdd22ed14a87f3dcd8f595cafa1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181205/45f2b931750e5f648993229ae4e2ea91.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/45f2b931750e5f648993229ae4e2ea91.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181205/5846b99f285b63a49d700d7804795db9.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/5846b99f285b63a49d700d7804795db9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181205/6b1aedcab14745e3030bf2d7eaff7684.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/6b1aedcab14745e3030bf2d7eaff7684.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181205/70259b66c796859a458d6866aa5dc0cf.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/70259b66c796859a458d6866aa5dc0cf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181205/7b2a67b506c59c1867d095e67a165df7.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/7b2a67b506c59c1867d095e67a165df7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181205/973ac18dd9e84f9b14b26569482a323e.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/973ac18dd9e84f9b14b26569482a323e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181205/b548f8d3095f7d8495e4b5f085bf4bcb.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/b548f8d3095f7d8495e4b5f085bf4bcb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181205/c6755293bbc317838e57037d546c23b7.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/c6755293bbc317838e57037d546c23b7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181205/f3f361f0d1005f72e150a3e4e4b9a16b.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181205/f3f361f0d1005f72e150a3e4e4b9a16b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181206/51a4394aca0f6b9861ebacfa37a90ec2.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/51a4394aca0f6b9861ebacfa37a90ec2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181206/a37f70e00b0bcb82f1267dad2b96e490.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/a37f70e00b0bcb82f1267dad2b96e490.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181206/c7359c2a94080b7f633b7a5ec053eb37.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/c7359c2a94080b7f633b7a5ec053eb37.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181206/cfee5f24b1505d922e9a3c9423c66203.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/cfee5f24b1505d922e9a3c9423c66203.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181206/fb51320c95557f9b45b1f518e0bdde14.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181206/fb51320c95557f9b45b1f518e0bdde14.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181207/287213a67ae131e0bf078349beb6e815.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/287213a67ae131e0bf078349beb6e815.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181207/2c16831408b3681a803644fca1fa5535.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/2c16831408b3681a803644fca1fa5535.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181207/8626587da9075039a954530fe0e1776a.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/8626587da9075039a954530fe0e1776a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181207/O1CN011hHSXCSYP5TBZKw_!!734584252.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/O1CN011hHSXCSYP5TBZKw_!!734584252.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181207/a924ae09511128ccf849347703f26186.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/a924ae09511128ccf849347703f26186.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181207/ca0f1379fc3f29d25501fe4b72651413.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/ca0f1379fc3f29d25501fe4b72651413.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimg/20181207/f5756aa27afa98be8ff37f91b9cb65c8.jpg" afterPath="$PROJECT_DIR$/public/goodsimg/20181207/f5756aa27afa98be8ff37f91b9cb65c8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181120/0e9eceba62a0e30e73e1fe25956cb964.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181120/0e9eceba62a0e30e73e1fe25956cb964.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181120/2be7e87d70300b75dbf29f4c431e3aab.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181120/2be7e87d70300b75dbf29f4c431e3aab.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181120/4280a89c3a2b5e236137653abf790959.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181120/4280a89c3a2b5e236137653abf790959.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181120/6d7403ca391b096b2c759e9be31990dd.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181120/6d7403ca391b096b2c759e9be31990dd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181120/aca98a8708938980ca46fb53f2aade18.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181120/aca98a8708938980ca46fb53f2aade18.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181120/c1a999e5bbf6202d83384f08b5899ddb.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181120/c1a999e5bbf6202d83384f08b5899ddb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181120/e0baa53319cb0fcc566d885d35eba402.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181120/e0baa53319cb0fcc566d885d35eba402.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181120/e86df747d53eb7fa38c257ad3099c07b.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181120/e86df747d53eb7fa38c257ad3099c07b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181120/eb12c2baeaaa86b5babfc9ae0ebe2036.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181120/eb12c2baeaaa86b5babfc9ae0ebe2036.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/045431077aba683387c9d7797141a21b.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/045431077aba683387c9d7797141a21b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/0be942a895acdde6e5ab173de4197e5c.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/0be942a895acdde6e5ab173de4197e5c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/1356e18bf7f8c5f3416af77b17313d96.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/1356e18bf7f8c5f3416af77b17313d96.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/29518348a0ef50705dba111fd1d1c211.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/29518348a0ef50705dba111fd1d1c211.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/2f4a1a4a54e43aea42afeb9505e7ad98.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/2f4a1a4a54e43aea42afeb9505e7ad98.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/38369e84d692ffce531c2e9c834c2093.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/38369e84d692ffce531c2e9c834c2093.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/3c30f111e2cadfd54f92c9c1ede1f3f7.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/3c30f111e2cadfd54f92c9c1ede1f3f7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/420f3e00e7923fee945a55b35a0f4ce7.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/420f3e00e7923fee945a55b35a0f4ce7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/45dd0087d78d4cdbfe6cd0cd7615b9cd.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/45dd0087d78d4cdbfe6cd0cd7615b9cd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/47834ca13158857ff89ab9b545cbf340.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/47834ca13158857ff89ab9b545cbf340.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/573d2937569c10a72a378e9b13e88102.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/573d2937569c10a72a378e9b13e88102.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/5b28a537fcdfe18133732ce68969b8f2.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/5b28a537fcdfe18133732ce68969b8f2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/63952845bca209f9d790a7e0844f309a.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/63952845bca209f9d790a7e0844f309a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/685a37fbd09fb8d7df3b9ae12c9c3507.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/685a37fbd09fb8d7df3b9ae12c9c3507.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/7d92c9ddd9a923ff3dc0ae8624bc35b8.jpeg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/7d92c9ddd9a923ff3dc0ae8624bc35b8.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/84387091fc48de9c8ae8cdc9f306cbfb.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/84387091fc48de9c8ae8cdc9f306cbfb.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/873f2c14157d8e4786699b6cae1cf90f.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/873f2c14157d8e4786699b6cae1cf90f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/89255afa20d08fd38d0d629da2c3471e.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/89255afa20d08fd38d0d629da2c3471e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/8e7a0bfab9249dbc1feb1e639356a196.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/8e7a0bfab9249dbc1feb1e639356a196.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/bcc38e3ced4099a64f6e88eb8a59c9da.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/bcc38e3ced4099a64f6e88eb8a59c9da.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181121/c4364c182e13a57b15ee43cbe05aa84c.jpeg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181121/c4364c182e13a57b15ee43cbe05aa84c.jpeg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181122/08681b76bf1fd107763bf1f62140b794.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181122/08681b76bf1fd107763bf1f62140b794.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/0de23ef8ddc498656493c2fce023b8e4.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/0de23ef8ddc498656493c2fce023b8e4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/200907c23039701d6c21ebaf3f0707dd.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/200907c23039701d6c21ebaf3f0707dd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/2d9c59c35f0e217f8364e1d8803e6909.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/2d9c59c35f0e217f8364e1d8803e6909.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/2fc91b0c700083bf7fbe610d85286a7e.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/2fc91b0c700083bf7fbe610d85286a7e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/58c45eca1aef53fa6285f0899291209d.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/58c45eca1aef53fa6285f0899291209d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/6e5af0c34ca2bf9d3601fff9572c524c.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/6e5af0c34ca2bf9d3601fff9572c524c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/71f073466cac1224ffb5181b36d116c8.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/71f073466cac1224ffb5181b36d116c8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/736dca05c2e88edee565adfaad2de953.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/736dca05c2e88edee565adfaad2de953.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/9753604a035f2c2dfb8954eb21feb09b.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/9753604a035f2c2dfb8954eb21feb09b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/af039bd547e552754ade85e33b17cd9d.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/af039bd547e552754ade85e33b17cd9d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/b0000ee500bff7e1533a31d0723f420d.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/b0000ee500bff7e1533a31d0723f420d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/cb4cf109bacc67e4c490cc08e7eae204.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/cb4cf109bacc67e4c490cc08e7eae204.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/cdaa1740c231750b486ba61cc49ce898.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/cdaa1740c231750b486ba61cc49ce898.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181124/e1666d398b231cd1ce93a67d7ad04d56.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181124/e1666d398b231cd1ce93a67d7ad04d56.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/2be4a21f6f82d6356755a317748cfd7b.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/2be4a21f6f82d6356755a317748cfd7b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/3423eae6835ecf23fea87f4ec7169f7f.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/3423eae6835ecf23fea87f4ec7169f7f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/3981bf56cc6ceae17ab93d5fb7556189.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/3981bf56cc6ceae17ab93d5fb7556189.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/5bc0301bNd67ff017.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/5bc0301bNd67ff017.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/5bed17ccf66e38b467620666e8e05cca.png" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/5bed17ccf66e38b467620666e8e05cca.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/5e114aba292edb3d4ce38b049abe82f0.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/5e114aba292edb3d4ce38b049abe82f0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/64ae8a7c74592a037cad2a841ca9b01c.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/64ae8a7c74592a037cad2a841ca9b01c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/6842ec3f736ee2c71617b159794cd022.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/6842ec3f736ee2c71617b159794cd022.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/699f2e369cd5d526090a4b1db708d675.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/699f2e369cd5d526090a4b1db708d675.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/6e64e2b41084dec9b22814f63196a768.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/6e64e2b41084dec9b22814f63196a768.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/7041ec993bb7c79ef021aa4645a1971b.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/7041ec993bb7c79ef021aa4645a1971b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/8a15f6e53b67c09cefba6dc4f7f0bb7e.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/8a15f6e53b67c09cefba6dc4f7f0bb7e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/8cdbc84fc0070d6e3b6f0bef2c0f4185.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/8cdbc84fc0070d6e3b6f0bef2c0f4185.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/94bc122430cc5ba6341b0daec2998c3f.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/94bc122430cc5ba6341b0daec2998c3f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/978e73808bf69e6da400f2bb7795fc66.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/978e73808bf69e6da400f2bb7795fc66.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/99c4d4d81a875596cbcc98357d77e4bd.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/99c4d4d81a875596cbcc98357d77e4bd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/9c0b5404ff915ddd65714f723d8170a6.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/9c0b5404ff915ddd65714f723d8170a6.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/ac719ec6277a94ebf6a75c69b7c4182c.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/ac719ec6277a94ebf6a75c69b7c4182c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/b87f42bd4607709ec61a66629036af4f.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/b87f42bd4607709ec61a66629036af4f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/ba9b0975cdcabf04647264905b4ebdb0.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/ba9b0975cdcabf04647264905b4ebdb0.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/be88c420e78c7ea75e8cb6e3a5042eb1.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/be88c420e78c7ea75e8cb6e3a5042eb1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/c4c14df4e8628b353107b12089acdb46.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/c4c14df4e8628b353107b12089acdb46.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/c9aaed11afec86480fca8ec22b84ac0e.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/c9aaed11afec86480fca8ec22b84ac0e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/ced0a6226dc580da73d3efa9d4dfeaf8.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/ced0a6226dc580da73d3efa9d4dfeaf8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/d4deef9c3a4fe53972d6811793ec51e7.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/d4deef9c3a4fe53972d6811793ec51e7.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/d4f5cf04f9821ec2a4852074c8ce7e78.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/d4f5cf04f9821ec2a4852074c8ce7e78.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/e32b85bd6094feb1ae568d3ffeae3420.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/e32b85bd6094feb1ae568d3ffeae3420.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/f6aec2eaa1a5ed730957b57d7773656b.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/f6aec2eaa1a5ed730957b57d7773656b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/fd0f0067780ed3bcac51a0dd51d6df09.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/fd0f0067780ed3bcac51a0dd51d6df09.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181205/fe02312235abfc8d305100fd2704e49f.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181205/fe02312235abfc8d305100fd2704e49f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/0354c863386bd3841428659de2930224.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/0354c863386bd3841428659de2930224.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/2468dae4a6fca14984e47d6fb2762b11.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/2468dae4a6fca14984e47d6fb2762b11.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/2727899f4dad829c3c6283f04ff0d7a8.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/2727899f4dad829c3c6283f04ff0d7a8.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/2d8bf0be11bde5e677422880d85cf303.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/2d8bf0be11bde5e677422880d85cf303.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/3db1f6409289f21613eab1393af767fd.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/3db1f6409289f21613eab1393af767fd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/4ca4dacc94c3e0aa54416059df049a0c.png" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/4ca4dacc94c3e0aa54416059df049a0c.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/5d6b4de0b9820711f1cc4165d620ab61.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/5d6b4de0b9820711f1cc4165d620ab61.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/648aa26d54b2d87ebeda42ac44bd06f9.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/648aa26d54b2d87ebeda42ac44bd06f9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/7218486ee55c56f72ebf7e42e705764a.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/7218486ee55c56f72ebf7e42e705764a.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/73080ed967f33fd03b86c075fabc9013.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/73080ed967f33fd03b86c075fabc9013.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/82ddd195ba95c76f444482d8672aee8c.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/82ddd195ba95c76f444482d8672aee8c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/a74410d0a13867a84edfa4b1b44586bd.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/a74410d0a13867a84edfa4b1b44586bd.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/c6f1cf38fdd98e6ddeb25127fcf0954f.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/c6f1cf38fdd98e6ddeb25127fcf0954f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/c9acbfdebf05baf12ade40a5d61550b1.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/c9acbfdebf05baf12ade40a5d61550b1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/cee606dc07a6bbc22f5826c8c80e01f9.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/cee606dc07a6bbc22f5826c8c80e01f9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/cf2e5392bf8d430fc766d7e846ae6dec.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/cf2e5392bf8d430fc766d7e846ae6dec.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/d9bef302808cbe7d7c7cda1826390159.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/d9bef302808cbe7d7c7cda1826390159.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/ee8ac3a1ee8a5d80bf1d3ab1fade2ac9.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/ee8ac3a1ee8a5d80bf1d3ab1fade2ac9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/f551bc87875e867ea7e2a506405a2fbf.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/f551bc87875e867ea7e2a506405a2fbf.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181206/fe9f25a6ea448b12f85e4e8697235087.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181206/fe9f25a6ea448b12f85e4e8697235087.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/169dda2e79cfe06679c1267f81757d69.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/169dda2e79cfe06679c1267f81757d69.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/265d4c401a3e61df327447adbf457d44.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/265d4c401a3e61df327447adbf457d44.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/31bea75f89be84f3c9065bef2a225c76.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/31bea75f89be84f3c9065bef2a225c76.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/375d05991f0800300733168965a5d7b9.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/375d05991f0800300733168965a5d7b9.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/3a80712bf5237765b6d4db5539c23126.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/3a80712bf5237765b6d4db5539c23126.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/4b8ef4498c8bf3350baeae33a7a98ff5.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/4b8ef4498c8bf3350baeae33a7a98ff5.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/5172a6b9a3c9b978fbf0673e95e80f2c.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/5172a6b9a3c9b978fbf0673e95e80f2c.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/6af25ad492902047e626c2a6f141d530.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/6af25ad492902047e626c2a6f141d530.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/6ea507db534c754f90f137b60ff04bf1.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/6ea507db534c754f90f137b60ff04bf1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/79ffa2b2fc6fcaa79ba1d5e171455cca.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/79ffa2b2fc6fcaa79ba1d5e171455cca.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/9945d4635ccb53604816c64d50eda10f.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/9945d4635ccb53604816c64d50eda10f.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/a0f37f788f91e3548589c2dd7a88e66e.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/a0f37f788f91e3548589c2dd7a88e66e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/a2b54b242e8593492caf5db347fef460.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/a2b54b242e8593492caf5db347fef460.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/b7bd0447667e9c419ecb0b2813169cc4.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/b7bd0447667e9c419ecb0b2813169cc4.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/bee746574a0fc7bd7681db7f298cbf7b.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/bee746574a0fc7bd7681db7f298cbf7b.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/c3aef840102f660efbccf9e42713505d.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/c3aef840102f660efbccf9e42713505d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/c8ebe65d5b90648339a54c7523a00a08.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/c8ebe65d5b90648339a54c7523a00a08.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/d53a5282409f8aeb428c9a488483c82e.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/d53a5282409f8aeb428c9a488483c82e.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/dbf5588b14bc6fa5fff3bc74b97c791d.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/dbf5588b14bc6fa5fff3bc74b97c791d.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/dfb05b4750f4992428daa186dc9418b3.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/dfb05b4750f4992428daa186dc9418b3.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/e8174e6957fbffc328f5682f62c80280.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/e8174e6957fbffc328f5682f62c80280.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/e997b28ef50274b16f9c590de5143fac.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/e997b28ef50274b16f9c590de5143fac.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/ef934511e1a7d9625470ea7452eb5762.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/ef934511e1a7d9625470ea7452eb5762.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/goodsimgs/20181207/f45c4085b9064cb1ef0f8ea6349b0226.jpg" afterPath="$PROJECT_DIR$/public/goodsimgs/20181207/f45c4085b9064cb1ef0f8ea6349b0226.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/1809a.iml" afterPath="$PROJECT_DIR$/.idea/1809a.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/blade.xml" afterPath="$PROJECT_DIR$/.idea/blade.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
@@ -33,15 +288,15 @@
       <file leaf-file-name="WxController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="560">
-              <caret line="432" column="0" lean-forward="false" selection-start-line="432" selection-start-column="0" selection-end-line="432" selection-end-column="0" />
+            <state relative-caret-position="10325">
+              <caret line="419" column="33" lean-forward="true" selection-start-line="419" selection-start-column="33" selection-end-line="419" selection-end-column="33" />
               <folding>
-                <marker date="1556070064389" expanded="true" signature="1539:1869" ph="..." />
-                <marker date="1556070064389" expanded="true" signature="2181:2487" ph="..." />
-                <marker date="1556070064389" expanded="true" signature="4640:4969" ph="..." />
-                <marker date="1556070064389" expanded="true" signature="5400:6183" ph="..." />
-                <marker date="1556070064389" expanded="true" signature="5775:6152" ph="..." />
-                <marker date="1556070064389" expanded="true" signature="5810:6114" ph="..." />
+                <marker date="1556070958417" expanded="true" signature="1539:1869" ph="..." />
+                <marker date="1556070958417" expanded="true" signature="2181:2487" ph="..." />
+                <marker date="1556070958417" expanded="true" signature="4640:4969" ph="..." />
+                <marker date="1556070958417" expanded="true" signature="5381:6164" ph="..." />
+                <marker date="1556070958417" expanded="true" signature="5756:6133" ph="..." />
+                <marker date="1556070958417" expanded="true" signature="5791:6095" ph="..." />
               </folding>
             </state>
           </provider>
@@ -50,19 +305,36 @@
       <file leaf-file-name="WxController.php" pinned="true" current-in-tab="true">
         <entry file="remoteDeploymentFS://&lt;999bc7ca-75e8-499e-aa45-f089c76b833d&gt;/1809a/app/Http/Controllers/WxController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="123" column="24" lean-forward="true" selection-start-line="123" selection-start-column="24" selection-end-line="123" selection-end-column="24" />
+            <state relative-caret-position="-2700">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <marker date="0" expanded="true" signature="1539:1869" ph="..." />
                 <marker date="0" expanded="true" signature="2181:2487" ph="..." />
                 <marker date="0" expanded="true" signature="4640:4969" ph="..." />
                 <marker date="0" expanded="true" signature="5400:6183" ph="..." />
                 <marker date="0" expanded="true" signature="5775:6152" ph="..." />
-                <marker date="0" expanded="true" signature="5810:5856" ph="..." />
-                <marker date="0" expanded="true" signature="5810:5857" ph="..." />
-                <marker date="0" expanded="true" signature="5810:5928" ph="..." />
                 <marker date="0" expanded="true" signature="5810:6114" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -105,6 +377,7 @@
         <option value="&lt;999bc7ca-75e8-499e-aa45-f089c76b833d&gt;/weixin/laravel/app/Http/Controllers/WeiXinController.php" />
         <option value="&lt;999bc7ca-75e8-499e-aa45-f089c76b833d&gt;/1809a/app/Http/Controllers/WxController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/WxController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/GoodsController.php" />
       </list>
     </option>
   </component>
@@ -387,19 +660,19 @@
       <workItem from="1555460949831" duration="19411000" />
       <workItem from="1555633750740" duration="13009000" />
       <workItem from="1555857007221" duration="613000" />
-      <workItem from="1556066126981" duration="3940000" />
+      <workItem from="1556066126981" duration="5624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66823000" />
+    <option name="totallyTimeSpent" value="68507000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17789166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14348462" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15959005" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -472,12 +745,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1556070064389" expanded="true" signature="1539:1869" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="2181:2487" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="4640:4969" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5400:6183" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5775:6152" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5810:6114" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="1539:1869" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="2181:2487" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="4640:4969" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5381:6164" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5756:6133" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5791:6095" ph="..." />
           </folding>
         </state>
       </provider>
@@ -501,12 +774,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1556070064389" expanded="true" signature="1539:1869" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="2181:2487" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="4640:4969" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5400:6183" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5775:6152" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5810:6114" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="1539:1869" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="2181:2487" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="4640:4969" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5381:6164" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5756:6133" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5791:6095" ph="..." />
           </folding>
         </state>
       </provider>
@@ -516,12 +789,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1556070064389" expanded="true" signature="1539:1869" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="2181:2487" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="4640:4969" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5400:6183" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5775:6152" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5810:6114" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="1539:1869" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="2181:2487" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="4640:4969" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5381:6164" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5756:6133" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5791:6095" ph="..." />
           </folding>
         </state>
       </provider>
@@ -531,12 +804,12 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1556070064389" expanded="true" signature="1539:1869" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="2181:2487" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="4640:4969" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5400:6183" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5775:6152" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5810:6114" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="1539:1869" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="2181:2487" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="4640:4969" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5381:6164" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5756:6133" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5791:6095" ph="..." />
           </folding>
         </state>
       </provider>
@@ -571,10 +844,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
+    <entry file="file://$PROJECT_DIR$/public/web.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="21" column="47" lean-forward="true" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -586,33 +868,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/web.config">
+    <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="344">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/GoodsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="350">
+          <caret line="14" column="47" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#38#75#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="432" column="0" lean-forward="false" selection-start-line="432" selection-start-column="0" selection-end-line="432" selection-end-column="0" />
+        <state relative-caret-position="10325">
+          <caret line="419" column="33" lean-forward="true" selection-start-line="419" selection-start-column="33" selection-end-line="419" selection-end-column="33" />
           <folding>
-            <marker date="1556070064389" expanded="true" signature="1539:1869" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="2181:2487" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="4640:4969" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5400:6183" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5775:6152" ph="..." />
-            <marker date="1556070064389" expanded="true" signature="5810:6114" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="1539:1869" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="2181:2487" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="4640:4969" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5381:6164" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5756:6133" ph="..." />
+            <marker date="1556070958417" expanded="true" signature="5791:6095" ph="..." />
           </folding>
         </state>
       </provider>

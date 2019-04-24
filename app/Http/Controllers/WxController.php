@@ -124,7 +124,7 @@ class WxController extends Controller{
                 </xml>";
                 echo $str;
             }else if($Content=="最新商品"){
-                $good = DB::table('shop_goods')->where('goods_up',1)->orderBy('create_time','desc')->limit(5)->get()->toArray();
+                $good = DB::table('shop_goods')->where('goods_up',1)->orderBy('create_time','desc')->first();
                 $good_name = $good->goods_name;
                 $title = "秀儿";
                 $picurl = "http://1809lancong.comcto.com/$good->goods_img";
