@@ -34,7 +34,7 @@ class GoodsController extends Controller{
         $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
         $url = "http://1809lancong.comcto.com/goodDetail";
         $title = "秀儿";
-        $desc = $good->goods_name;
+        $desc = "啊哈哈哈";
         $arr = [
             'picurl'=>$picurl,
             'url'=>$url,
