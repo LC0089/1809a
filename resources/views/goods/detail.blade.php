@@ -20,10 +20,10 @@
                 <td><img class="lazy" src="{{URL::asset('goodsimg/'.$good->goods_img)}}"></a> </td>
             </tr>
         </table>
-        <script src="js/jquery/jquery-1.12.4.min.js"></script>
-        <script src="http://res2.wx.qq.com/open/js/jweixin-1.4.0.js "></script>
 </body>
 </html>
+<script src="js/jquery/jquery-1.12.4.min.js"></script>
+<script src="http://res2.wx.qq.com/open/js/jweixin-1.4.0.js "></script>
 <script>
     wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
             wx.updateAppMessageShareData({
