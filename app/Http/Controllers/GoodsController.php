@@ -17,6 +17,7 @@ class GoodsController extends Controller{
         $url = "http://1809lancong.comcto.com/goodDetail";
         $title = "秀儿";
         $desc = $good->goods_name;
+//        print_r($desc);die;
         $data = [
             'picurl'=>$picurl,
             'url'=>$url,
