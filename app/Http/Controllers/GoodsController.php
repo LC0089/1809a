@@ -14,7 +14,7 @@ class GoodsController extends Controller{
     public function goodDetail(){
         $good = DB::table('shop_goods')->where('goods_up',1)->orderBy('create_time','desc')->first();
 
-        $jsapi_ticket = JsapiTicket();
+        $jsapi_ticket = $this->JsapiTicket();
         $nonceStr = Str::random(10);
         $timestamp = time();
         $current_cul = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
@@ -54,7 +54,7 @@ class GoodsController extends Controller{
         if ($jsapi_ticket) {
             return $jsapi_ticket;
         } else {
-            $accessToken = accessToken();
+            $accessToken = $this->accessToken();
             $url = "https://api.weixin.qq.com/cgi-bin/ticket/getticket?access_token=$accessToken&type=jsapi";
             $jsapi_ticket = json_decode(file_get_contents($url), true);
 
@@ -65,6 +65,24 @@ class GoodsController extends Controller{
             } else {
                 return false;
             }
+        }
+    }
+    //获取accessToken
+    public function accessToken(){
+        $key = 'wx_access_token';
+        $accessToken = Redis::get($key);
+        if($accessToken){
+            return $accessToken;
+        }else{
+            $url='https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid='.env('WX_APPID').'&secret='.env('WX_SECRET').'';
+            $response = file_get_contents($url);
+            $arr = json_decode($response,true);
+            $access = $arr['access_token'];
+//            print_r($arr);die;
+            Redis::set($key,$access);
+            Redis::expire($key,3600);
+            $accessToken = $arr['access_token'];
+            return $accessToken;
         }
     }
 }
