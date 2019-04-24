@@ -463,8 +463,7 @@ class WxController extends Controller{
                 'user_name'=>$responser['nickname'],
                 'sex'=>$responser['sex']
             ];
-//        print_r($responser);
-            DB:table('give')->insert($data);
+            DB::table('give')->insert($data);
             echo "欢迎";
         }
 
