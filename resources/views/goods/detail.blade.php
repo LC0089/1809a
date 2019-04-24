@@ -28,10 +28,10 @@
     wx.ready(function () {   //需在用户可能点击分享按钮前就先调用
         $('#btn2').click(function() {
             wx.updateAppMessageShareData({
-                title: "{{$picurl}}", // 分享标题
-                desc: "{{$desc}}", // 分享描述
-                link: "{{$url}}", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-                imgUrl: '{{$picurl}}', // 分享图标
+                title: "{{$data['picurl']}}", // 分享标题
+                desc: "{{$data['desc']}}", // 分享描述
+                link: "{{$data['url']}}", // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+                imgUrl: '{{$data['picurl']}}', // 分享图标
                 success: function (msg) {
                     alert('设置成功')
                 }
