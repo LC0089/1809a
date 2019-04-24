@@ -289,25 +289,14 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WxController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="WxController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="438" column="49" lean-forward="false" selection-start-line="438" selection-start-column="49" selection-end-line="438" selection-end-column="49" />
+            <state relative-caret-position="396">
+              <caret line="444" column="38" lean-forward="true" selection-start-line="444" selection-start-column="38" selection-end-line="444" selection-end-column="38" />
               <folding>
                 <element signature="e#323#384#0#PHP" expanded="false" />
                 <element signature="e#389#7120#0#PHP" expanded="false" />
-                <element signature="e#7145#7815#0#PHP" expanded="false" />
                 <element signature="e#7820#9913#0#PHP" expanded="false" />
                 <element signature="e#9937#10981#0#PHP" expanded="false" />
                 <element signature="e#11165#12669#0#PHP" expanded="false" />
@@ -318,18 +307,18 @@
                 <element signature="e#14859#14892#0#PHP" expanded="false" />
                 <element signature="e#14897#15200#0#PHP" expanded="false" />
                 <element signature="e#15235#16035#0#PHP" expanded="false" />
-                <marker date="1556102174962" expanded="true" signature="1539:1869" ph="..." />
-                <marker date="1556102174962" expanded="true" signature="2181:2487" ph="..." />
-                <marker date="1556102174962" expanded="true" signature="4640:4969" ph="..." />
-                <marker date="1556102174962" expanded="true" signature="5409:6193" ph="..." />
-                <marker date="1556102174962" expanded="true" signature="5784:6162" ph="..." />
-                <marker date="1556102174962" expanded="true" signature="5819:6124" ph="..." />
+                <marker date="1556105609137" expanded="true" signature="1539:1869" ph="..." />
+                <marker date="1556105609137" expanded="true" signature="2181:2487" ph="..." />
+                <marker date="1556105609137" expanded="true" signature="4640:4969" ph="..." />
+                <marker date="1556105609137" expanded="true" signature="5409:6193" ph="..." />
+                <marker date="1556105609137" expanded="true" signature="5784:6162" ph="..." />
+                <marker date="1556105609137" expanded="true" signature="5819:6124" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="give.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="give.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/weixin/give.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="250">
@@ -380,9 +369,9 @@
         <option value="$PROJECT_DIR$/resources/views/goods/detail.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/GoodsController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CrontabController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/WxController.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/weixin/give.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/WxController.php" />
       </list>
     </option>
   </component>
@@ -665,15 +654,15 @@
       <workItem from="1555460949831" duration="19411000" />
       <workItem from="1555633750740" duration="13009000" />
       <workItem from="1555857007221" duration="613000" />
-      <workItem from="1556066126981" duration="21661000" />
+      <workItem from="1556066126981" duration="24382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84544000" />
+    <option name="totallyTimeSpent" value="87265000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -683,7 +672,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2284041" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19619326" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16105418" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -752,7 +741,6 @@
           <folding>
             <element signature="e#323#384#0#PHP" expanded="false" />
             <element signature="e#389#7120#0#PHP" expanded="false" />
-            <element signature="e#7145#7815#0#PHP" expanded="false" />
             <element signature="e#7820#9913#0#PHP" expanded="false" />
             <element signature="e#9937#10981#0#PHP" expanded="false" />
             <element signature="e#11165#12669#0#PHP" expanded="false" />
@@ -763,12 +751,12 @@
             <element signature="e#14859#14892#0#PHP" expanded="false" />
             <element signature="e#14897#15200#0#PHP" expanded="false" />
             <element signature="e#15235#16035#0#PHP" expanded="false" />
-            <marker date="1556102174962" expanded="true" signature="1539:1869" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="2181:2487" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="4640:4969" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5409:6193" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5784:6162" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5819:6124" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="1539:1869" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="2181:2487" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="4640:4969" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5409:6193" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5784:6162" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5819:6124" ph="..." />
           </folding>
         </state>
       </provider>
@@ -794,7 +782,6 @@
           <folding>
             <element signature="e#323#384#0#PHP" expanded="false" />
             <element signature="e#389#7120#0#PHP" expanded="false" />
-            <element signature="e#7145#7815#0#PHP" expanded="false" />
             <element signature="e#7820#9913#0#PHP" expanded="false" />
             <element signature="e#9937#10981#0#PHP" expanded="false" />
             <element signature="e#11165#12669#0#PHP" expanded="false" />
@@ -805,12 +792,12 @@
             <element signature="e#14859#14892#0#PHP" expanded="false" />
             <element signature="e#14897#15200#0#PHP" expanded="false" />
             <element signature="e#15235#16035#0#PHP" expanded="false" />
-            <marker date="1556102174962" expanded="true" signature="1539:1869" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="2181:2487" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="4640:4969" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5409:6193" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5784:6162" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5819:6124" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="1539:1869" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="2181:2487" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="4640:4969" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5409:6193" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5784:6162" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5819:6124" ph="..." />
           </folding>
         </state>
       </provider>
@@ -822,7 +809,6 @@
           <folding>
             <element signature="e#323#384#0#PHP" expanded="false" />
             <element signature="e#389#7120#0#PHP" expanded="false" />
-            <element signature="e#7145#7815#0#PHP" expanded="false" />
             <element signature="e#7820#9913#0#PHP" expanded="false" />
             <element signature="e#9937#10981#0#PHP" expanded="false" />
             <element signature="e#11165#12669#0#PHP" expanded="false" />
@@ -833,12 +819,12 @@
             <element signature="e#14859#14892#0#PHP" expanded="false" />
             <element signature="e#14897#15200#0#PHP" expanded="false" />
             <element signature="e#15235#16035#0#PHP" expanded="false" />
-            <marker date="1556102174962" expanded="true" signature="1539:1869" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="2181:2487" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="4640:4969" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5409:6193" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5784:6162" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5819:6124" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="1539:1869" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="2181:2487" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="4640:4969" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5409:6193" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5784:6162" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5819:6124" ph="..." />
           </folding>
         </state>
       </provider>
@@ -850,7 +836,6 @@
           <folding>
             <element signature="e#323#384#0#PHP" expanded="false" />
             <element signature="e#389#7120#0#PHP" expanded="false" />
-            <element signature="e#7145#7815#0#PHP" expanded="false" />
             <element signature="e#7820#9913#0#PHP" expanded="false" />
             <element signature="e#9937#10981#0#PHP" expanded="false" />
             <element signature="e#11165#12669#0#PHP" expanded="false" />
@@ -861,12 +846,12 @@
             <element signature="e#14859#14892#0#PHP" expanded="false" />
             <element signature="e#14897#15200#0#PHP" expanded="false" />
             <element signature="e#15235#16035#0#PHP" expanded="false" />
-            <marker date="1556102174962" expanded="true" signature="1539:1869" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="2181:2487" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="4640:4969" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5409:6193" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5784:6162" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5819:6124" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="1539:1869" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="2181:2487" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="4640:4969" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5409:6193" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5784:6162" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5819:6124" ph="..." />
           </folding>
         </state>
       </provider>
@@ -894,14 +879,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/weixin/qrcode.js" />
     <entry file="file://$PROJECT_DIR$/public/js/jquery/jquery-1.12.4.min.js" />
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WXBizDataCryptController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/web.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -917,14 +894,6 @@
           <folding>
             <marker date="1555488485191" expanded="true" signature="565:574" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="51" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -960,30 +929,55 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CrontabController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="e#38#75#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WXBizDataCryptController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="47" column="10" lean-forward="false" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/weixin/give.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+          <folding>
+            <marker date="1556102241875" expanded="true" signature="328:332" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="22" column="47" lean-forward="true" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+        <state relative-caret-position="350">
+          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WxController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="438" column="49" lean-forward="false" selection-start-line="438" selection-start-column="49" selection-end-line="438" selection-end-column="49" />
+        <state relative-caret-position="396">
+          <caret line="444" column="38" lean-forward="true" selection-start-line="444" selection-start-column="38" selection-end-line="444" selection-end-column="38" />
           <folding>
             <element signature="e#323#384#0#PHP" expanded="false" />
             <element signature="e#389#7120#0#PHP" expanded="false" />
-            <element signature="e#7145#7815#0#PHP" expanded="false" />
             <element signature="e#7820#9913#0#PHP" expanded="false" />
             <element signature="e#9937#10981#0#PHP" expanded="false" />
             <element signature="e#11165#12669#0#PHP" expanded="false" />
@@ -994,22 +988,12 @@
             <element signature="e#14859#14892#0#PHP" expanded="false" />
             <element signature="e#14897#15200#0#PHP" expanded="false" />
             <element signature="e#15235#16035#0#PHP" expanded="false" />
-            <marker date="1556102174962" expanded="true" signature="1539:1869" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="2181:2487" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="4640:4969" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5409:6193" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5784:6162" ph="..." />
-            <marker date="1556102174962" expanded="true" signature="5819:6124" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/weixin/give.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="62" lean-forward="true" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
-          <folding>
-            <marker date="1556102241875" expanded="true" signature="328:332" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="1539:1869" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="2181:2487" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="4640:4969" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5409:6193" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5784:6162" ph="..." />
+            <marker date="1556105609137" expanded="true" signature="5819:6124" ph="..." />
           </folding>
         </state>
       </provider>

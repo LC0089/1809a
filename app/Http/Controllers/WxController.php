@@ -434,9 +434,25 @@ class WxController extends Controller{
     public function give(){
         $appID = "wxf5563dd4e9bb4d40";
         $scope = "snsapi_userinfo";
-        $url = urlencode("http://1809lancong.comcto.com/valid");
+        $url = urlencode("http://1809lancong.comcto.com/code");
         $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appID&redirect_uri=$url&response_type=code&scope=$scope&state=STATE#wechat_redirect";
         return view('weixin.give',['url'=>$url]);
+    }
+
+    public function code(){
+        $code = $_GET['code'];
+//        $content = file_get_contents("php://input");
+        $appID = "wxf5563dd4e9bb4d40";
+        $secret = "f8567120bca9f65e3b00a497c2a5ed7e";
+        $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appID&secret=$secret&code=$code&grant_type=authorization_code";
+        $responser = json_decode(file_get_contents($url),true);
+
+        $accessToken = $responser['access_token'];
+        $openid = $responser['openid'];
+
+        $url = "https://api.weixin.qq.com/sns/userinfo?access_token=$accessToken&openid=$openid&lang=zh_CN";
+        $responser = json_decode(file_get_contents($url),true);
+        print_r($responser);
     }
 }
 ?>
