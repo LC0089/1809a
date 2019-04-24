@@ -452,7 +452,23 @@ class WxController extends Controller{
 
         $url = "https://api.weixin.qq.com/sns/userinfo?access_token=$accessToken&openid=$openid&lang=zh_CN";
         $responser = json_decode(file_get_contents($url),true);
-        print_r($responser);
+
+        $openid = $responser['openid'];
+        $arr = DB::table('give')->where('openid',$openid)->first();
+        if($arr){
+            echo "欢迎回来";
+        }else{
+            $data = [
+                'openid'=>$responser['openid'],
+                'user_name'=>$responser['nickname'],
+                'sex'=>$responser['sex']
+            ];
+//        print_r($responser);
+            DB:table('give')->insert($data);
+            echo "欢迎";
+        }
+
+
     }
 }
 ?>
