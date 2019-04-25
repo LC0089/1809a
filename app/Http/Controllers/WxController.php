@@ -432,19 +432,15 @@ class WxController extends Controller{
      * 用户授权
      */
     public function give(){
-        $appID = "wxf5563dd4e9bb4d40";
         $scope = "snsapi_userinfo";
         $url = urlencode("http://1809lancong.comcto.com/code");
-        $url = "https://open.weixin.qq.com/connect/oauth2/authorize?appid=$appID&redirect_uri=$url&response_type=code&scope=$scope&state=STATE#wechat_redirect";
+        $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.env('WX_APPID').'&redirect_uri=$url&response_type=code&scope=$scope&state=STATE#wechat_redirect';
         return view('weixin.give',['url'=>$url]);
     }
 
     public function code(){
         $code = $_GET['code'];
-//        $content = file_get_contents("php://input");
-        $appID = "wxf5563dd4e9bb4d40";
-        $secret = "f8567120bca9f65e3b00a497c2a5ed7e";
-        $url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=$appID&secret=$secret&code=$code&grant_type=authorization_code";
+        $url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid='.env('WX_APPID').'&secret='.env('WX_SECRET').'&code=$code&grant_type=authorization_code';
         $responser = json_decode(file_get_contents($url),true);
 
         $accessToken = $responser['access_token'];
@@ -455,6 +451,7 @@ class WxController extends Controller{
 
         $openid = $responser['openid'];
         $arr = DB::table('give')->where('openid',$openid)->first();
+
         if($arr){
             echo "欢迎回来";
         }else{
