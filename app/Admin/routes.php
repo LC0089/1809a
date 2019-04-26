@@ -14,4 +14,6 @@ Route::group([
     $router->resource('/user',PostController::class);
     $router->resource('/goods_select',GoodsController::class);
     $router->resource('/order_select',OrderController::class);
+    $router->resource('/sucai_insert',OrderController::class);
+    $router->resource('/sucai_select',OrderController::class);
 });
