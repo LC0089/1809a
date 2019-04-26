@@ -12,5 +12,6 @@ Route::group([
 
     $router->get('/', 'HomeController@index');
     $router->resource('/user',PostController::class);
-    $router->resource('/herd',PostController::class);
+    $router->resource('/goods_select',GoodsController::class);
+    $router->resource('/order_select',OrderController::class);
 });
