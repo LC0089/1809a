@@ -82,17 +82,11 @@ class GoodsController extends Controller{
         }
     }
 
-    public function move(){
-        $scene_id = rand(10000,99999);
-//        print_r($scene_id);die;
-        return view('weixin.move',['scene_id'=>$scene_id]);
-    }
     /**
      * 生成带参数的二维码
      */
-    public function moveList(){
-        $code = $_GET['code'];
-        $scene_id = 222;
+    public function move(){
+        $scene_id = rand(10000,99999);
         $accessToken = $this->accessToken();
         $url ="https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=$accessToken";
         $objurl = new Client();
@@ -103,6 +97,6 @@ class GoodsController extends Controller{
                 'scene' => ['scene_id'=>$scene_id]
             ],
         ]);
-
+        print_r($response);die;
     }
 }
