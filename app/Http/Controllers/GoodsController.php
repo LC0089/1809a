@@ -97,6 +97,6 @@ class GoodsController extends Controller{
                 'scene' => ['scene_id'=>$scene_id]
             ]
         ]);
-        var_dump($response);die;
+        print_r($response);die;
     }
 }
