@@ -89,15 +89,14 @@ class GoodsController extends Controller{
         $scene_id = rand(10000,99999);
         $accessToken = $this->accessToken();
         $url ="https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=$accessToken";
-        $objurl = new Client();
-        $response = $objurl->request('POST',$url,[
+        $client = new GuzzleHttp\Client();
+        $response = $client->request('POST',$url,[
             "expire_seconds" => '604800',
             "action_name" => 'QR_STR_SCENE',
             "action_info" => [
                 'scene' => ['scene_id'=>$scene_id]
             ]
         ]);
-        $response = json_encode($response);
         var_dump($response);die;
     }
 }
