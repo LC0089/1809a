@@ -98,6 +98,6 @@ class GoodsController extends Controller{
             ]
         ]);
         $response = json_encode($response);
-        print_r($response);die;
+        var_dump($response);die;
     }
 }
