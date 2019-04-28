@@ -97,6 +97,7 @@ class GoodsController extends Controller{
                 'scene' => ['scene_id'=>$scene_id]
             ]
         ]);
+        $response = json_encode($response);
         print_r($response);die;
     }
 }
