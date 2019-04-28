@@ -102,15 +102,10 @@ class GoodsController extends Controller{
             'body'=>$strjson
         ]);
         $res_str = $response->getBody();
-        $ticket = GuzzleHttp\json_decode($res_str);
-        $ticket = $ticket->ticket;
-//        print_r($ticket) ;die;
+        $ticket = json_decode($res_str,true);
+        $ticket = $ticket['ticket'];
         $url ="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=$ticket";
 //        print_r($url);die;
-//        $response = file_get_contents($url);
-//        print_r($response);die;
-//        $arr = json_decode($response,true);
-//        print_r($arr);die;
-        return view('weixin.move',['url'=>$url]);
+        header('Location:'.$url);
     }
 }
