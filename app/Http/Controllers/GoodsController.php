@@ -91,13 +91,12 @@ class GoodsController extends Controller{
         $url ="https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=$accessToken";
         $objurl = new Client();
         $response = $objurl->request('POST',$url,[
-            'expire_seconds' => '604800',
-            'action_name' => 'QR_STR_SCENE',
-            'action_info' => [
+            "expire_seconds" => '604800',
+            "action_name" => 'QR_STR_SCENE',
+            "action_info" => [
                 'scene' => ['scene_id'=>$scene_id]
-            ],
+            ]
         ]);
-        $res_str = $response->getBody();
-        print_r($res_str);die;
+        print_r($response);die;
     }
 }
