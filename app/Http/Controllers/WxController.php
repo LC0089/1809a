@@ -184,6 +184,7 @@ class WxController extends Controller{
             return $accessToken;
         }
     }
+    //自定义菜单
     public function menu(){
         $accessToken = $this->accessToken();
         $url="https://api.weixin.qq.com/cgi-bin/menu/create?access_token=$accessToken";

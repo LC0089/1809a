@@ -81,4 +81,28 @@ class GoodsController extends Controller{
             return $accessToken;
         }
     }
+
+    public function move(){
+        $scene_id = rand(10000,99999);
+//        print_r($scene_id);die;
+        return view('weixin.move',['scene_id'=>$scene_id]);
+    }
+    /**
+     * 生成带参数的二维码
+     */
+    public function moveList(){
+        $code = $_GET['code'];
+        $scene_id = 222;
+        $accessToken = $this->accessToken();
+        $url ="https://api.weixin.qq.com/cgi-bin/qrcode/create?access_token=$accessToken";
+        $objurl = new Client();
+        $response = $objurl->request('POST',$url,[
+            'expire_seconds' => '604800',
+            'action_name' => 'QR_STR_SCENE',
+            'action_info' => [
+                'scene' => ['scene_id'=>$scene_id]
+            ],
+        ]);
+
+    }
 }
