@@ -29,7 +29,7 @@ Route::any('notify','WxController@notify');       //微信支付回调地址
 
 
 Route::any('goodDetail','GoodsController@goodDetail');
-
+Route::any('accessToken','GoodsController@accessToken');
 //计划任务
 Route::any('delOrder','CrontabController@delOrder');  //定时删除订单
 
