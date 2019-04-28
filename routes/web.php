@@ -27,7 +27,8 @@ Route::any('code','WxController@code');  //code回调
 Route::any('test','WxController@test');           //消息群发
 Route::any('notify','WxController@notify');       //微信支付回调地址
 
-
+Route::any('goodList','GoodsController@goodList');
+Route::any('details','GoodsController@details');
 Route::any('goodDetail','GoodsController@goodDetail');
 Route::any('accessToken','GoodsController@accessToken');
 //计划任务

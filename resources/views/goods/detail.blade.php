@@ -6,6 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>秀儿</title>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/qrcode.min.js"></script>
 </head>
 <body>
         <table border="1">
@@ -17,9 +19,10 @@
             <tr>
                 <td>{{$good->goods_name}}</td>
                 <td>{{$good->goods_selfprice}}</td>
-                <td><img class="lazy" src="{{URL::asset('goodsimg/'.$good->goods_img)}}"></a> </td>
+                <td ><img class="lazy" src="{{URL::asset('goodsimg/'.$good->goods_img)}}"></a> </td>
             </tr>
         </table>
+
 </body>
 </html>
 <script src="js/jquery/jquery-1.12.4.min.js"></script>
@@ -45,3 +48,20 @@
             })
     });
 </script>
+{{--<script>--}}
+    {{--var qrcode = new QRCode('qrcode',{--}}
+        {{--text:'{{$url}}',--}}
+        {{--width:256,--}}
+        {{--height:256,--}}
+        {{--colorDark : '#000000',--}}
+        {{--colorLight : '#ffffff',--}}
+        {{--correctLevel : QRCode.CorrectLevel.H--}}
+    {{--});--}}
+
+    {{--//qrcode.clear();--}}
+    {{--//qrcode.makeCode('new $wpayurl');--}}
+{{--</script>--}}
+{{--<div width="300px" height="300px" border="1">--}}
+    {{--<div id="qrcode"></div>--}}
+{{--</div>--}}
+
