@@ -102,6 +102,11 @@ class GoodsController extends Controller{
             'body'=>$strjson
         ]);
         $res_str = $response->getBody();
-        echo $res_str;
+//        echo $res_str;
+
+        $url ="https://mp.weixin.qq.com/cgi-bin/showqrcode?ticket=TICKET";
+        $response = file_get_contents($url);
+        $arr = json_decode($response,true);
+        print_r($arr);die;
     }
 }
