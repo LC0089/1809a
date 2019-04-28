@@ -102,6 +102,6 @@ class GoodsController extends Controller{
             'body'=>$strjson
         ]);
         $res_str = $response->getBody();
-        print_r($res_str);die;
+        echo $res_str;
     }
 }

@@ -34,4 +34,3 @@ Route::any('goodDetail','GoodsController@goodDetail');
 Route::any('delOrder','CrontabController@delOrder');  //定时删除订单
 
 Route::any('move','GoodsController@move');  //生成带参数的二维码
-Route::any('moveList','GoodsController@moveList');
