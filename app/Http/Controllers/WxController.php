@@ -36,6 +36,37 @@ class WxController extends Controller{
         $openid = $arr['openid'];
         $date = DB::table('user')->where('openid',$openid)->count();
 
+        if($Event=='SCAN'){
+            if($date){
+                $content = "$name,欢迎回来";
+                $str = "
+                <xml>
+                  <ToUserName><![CDATA[$FromUserName]]></ToUserName>
+                  <FromUserName><![CDATA[$ToUserName]]></FromUserName>
+                  <CreateTime>$CreateTime</CreateTime>
+                  <MsgType><![CDATA[text]]></MsgType>
+                  <Content><![CDATA[$content]]></Content>
+                </xml>";
+                echo $str;
+            }else{
+                $data=[
+                    'user_name'=>$name,
+                    'openid'=>$openid
+                ];
+                $array = DB::table('user')->insert($data);
+                $content = "$name,欢迎关注";
+                $str = "
+            <xml>
+              <ToUserName><![CDATA[$FromUserName]]></ToUserName>
+              <FromUserName><![CDATA[$ToUserName]]></FromUserName>
+              <CreateTime>$CreateTime</CreateTime>
+              <MsgType><![CDATA[text]]></MsgType>
+              <Content><![CDATA[$content]]></Content>
+            </xml>";
+                echo $str;
+            }
+        }
+
         if($Event=='subscribe'){
             if($date){
                 $content = "$name,欢迎回来";
