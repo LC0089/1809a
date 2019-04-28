@@ -37,35 +37,27 @@ class WxController extends Controller{
         $date = DB::table('user')->where('openid',$openid)->count();
 
         if($Event=='SCAN'){
-            if($date){
-                $content = "$name,欢迎回来";
-                $str = "
-                <xml>
-                  <ToUserName><![CDATA[$FromUserName]]></ToUserName>
-                  <FromUserName><![CDATA[$ToUserName]]></FromUserName>
-                  <CreateTime>$CreateTime</CreateTime>
-                  <MsgType><![CDATA[text]]></MsgType>
-                  <Content><![CDATA[$content]]></Content>
-                </xml>";
-                echo $str;
-            }else{
-                $data=[
-                    'user_name'=>$name,
-                    'openid'=>$openid
-                ];
-                $array = DB::table('user')->insert($data);
-                $content = "$name,欢迎关注";
-                $str = "
-            <xml>
-              <ToUserName><![CDATA[$FromUserName]]></ToUserName>
-              <FromUserName><![CDATA[$ToUserName]]></FromUserName>
-              <CreateTime>$CreateTime</CreateTime>
-              <MsgType><![CDATA[text]]></MsgType>
-              <Content><![CDATA[$content]]></Content>
-            </xml>";
-                echo $str;
-            }
-            
+            $good = DB::table('shop_goods')->where('goods_up',1)->orderBy('create_time','desc')->first();
+            $good_name = $good->goods_name;
+            $title = "秀儿";
+            $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
+            $url = "http://1809lancong.comcto.com/goodDetail";
+            $str = "<xml>
+                          <ToUserName><![CDATA[$FromUserName]]></ToUserName>
+                          <FromUserName><![CDATA[$ToUserName]]></FromUserName>
+                          <CreateTime>$CreateTime</CreateTime>
+                          <MsgType><![CDATA[news]]></MsgType>
+                          <ArticleCount>1</ArticleCount>
+                          <Articles>
+                            <item>
+                              <Title><![CDATA[$title]]></Title>
+                              <Description><![CDATA[$good_name]]></Description>
+                              <PicUrl><![CDATA[$picurl]]></PicUrl>
+                              <Url><![CDATA[$url]]></Url>
+                            </item>
+                          </Articles>
+                        </xml>";
+            echo $str;
         }
 
         if($Event=='subscribe'){
