@@ -319,7 +319,7 @@ class WxController extends Controller{
                 array(
                     'name'=>"签到",
                     "type"=>"view",
-                    "key"=>"http://1809lancong.comcto.com/gives"
+                    "url"=>"http://1809lancong.comcto.com/gives"
                 ),
             ),
         );
