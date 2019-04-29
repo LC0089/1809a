@@ -541,8 +541,7 @@ class WxController extends Controller{
             DB::table('give')->insert($data);
             echo "欢迎";
         }
-        $goodDetail_url = "http://1809lancong.comcto.com/goodDetail";
-        header('Location:'.$goodDetail_url);
+        header('Refresh:3;url=/goodDetail');
 
     }
     public function JsapiTicket()
