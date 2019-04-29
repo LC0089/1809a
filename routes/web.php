@@ -14,6 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/',function(){
+
+});
 
 Route::get('valid','WxController@valid');
 Route::post('valid','WxController@wxEvent');
