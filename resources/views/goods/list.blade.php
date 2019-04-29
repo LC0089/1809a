@@ -10,7 +10,7 @@
     <script src="/js/qrcode.min.js"></script>
 </head>
 <body>
-<table border="1">
+<table border="1" align="center">
     <tr>
         <td>id</td>
         <td>{{$data->goods_id}}</td>
