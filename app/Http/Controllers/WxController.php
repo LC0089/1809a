@@ -513,13 +513,13 @@ class WxController extends Controller{
         $scope = "snsapi_userinfo";
         $url = urlencode("http://1809lancong.comcto.com/code");
         $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.env('WX_APPID').'&redirect_uri='.$url.'&response_type=code&scope='.$scope.'&state=STATE#wechat_redirect';
-        return $url;
+//        return $url;
     }
 
     public function code(Request $Request){
         $data = $Request->input();
         $code = $data['code'];
-        print_r($code);die;
+//        print_r($code);die;
         $url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid='.env('WX_APPID').'&secret='.env('WX_SECRET').'&code='.$code.'&grant_type=authorization_code';
         $responser = json_decode(file_get_contents($url),true);
 
