@@ -173,9 +173,9 @@ class WxController extends Controller{
             }else{
                 $data = DB::table('shop_goods')->where('goods_up',1)->where('goods_name','like',"%$Content%")->first();
                 if($data){
-                    $good_name = $good->goods_name;
+                    $good_name = $data->goods_name;
                     $title = "秀儿";
-                    $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
+                    $picurl = "http://1809lancong.comcto.com/goodsimg/$data->goods_img";
                     $url = "http://1809lancong.comcto.com/goodDetail";
                     $str = "<xml>
                           <ToUserName><![CDATA[$FromUserName]]></ToUserName>
@@ -195,10 +195,10 @@ class WxController extends Controller{
                     echo $str;
                 }else{
                     $id = rand(1,99);
-                    $good = DB::table('shop_goods')->where('goods_up',1)->where('goods_id',$id)->first();
-                    $good_name = $good->goods_name;
+                    $data = DB::table('shop_goods')->where('goods_up',1)->where('goods_id',$id)->first();
+                    $good_name = $data->goods_name;
                     $title = "秀儿";
-                    $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
+                    $picurl = "http://1809lancong.comcto.com/goodsimg/$data->goods_img";
                     $url = "http://1809lancong.comcto.com/goodDetail";
                     $str = "<xml>
                           <ToUserName><![CDATA[$FromUserName]]></ToUserName>
