@@ -579,7 +579,6 @@ class WxController extends Controller{
             'openid' => $responser['openid'],
             'create_time'=>$create_time
         ];
-        print_r($data);die;
 
         $redis = new \Redis();
         $redis -> connect('127.0.0.1',6379);
@@ -592,6 +591,16 @@ class WxController extends Controller{
         $redis->rpush($keylist,$hsetkey);
 
 
+
+        $arr = $redis->lrange($keylist,0,-1);
+        $data = [];
+
+        foreach ($arr as $k=>$v){
+            $arr2 = $redis->hGetAll($v);
+            array_push($data,$arr2);
+        }
+        print_r($arr2);
+        print_r($data);die;
     }
     public function JsapiTicket()
     {

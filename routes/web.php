@@ -27,7 +27,7 @@ Route::any('give','WxController@give');  //用户授权
 Route::any('code','WxController@code');  //code回调
 Route::any('gives','WxController@gives');  //用户授权
 Route::any('codes','WxController@codes');  //code回调
-Route::any('signIn','WxController@signIn');  //签到
+Route::any('signin','WxController@signin');  //签到
 
 //微信支付
 Route::any('test','WxController@test');           //消息群发
