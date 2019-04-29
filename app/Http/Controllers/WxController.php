@@ -513,7 +513,7 @@ class WxController extends Controller{
         $scope = "snsapi_userinfo";
         $url = urlencode("http://1809lancong.comcto.com/code");
         $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.env('WX_APPID').'&redirect_uri='.$url.'&response_type=code&scope='.$scope.'&state=STATE#wechat_redirect';
-//        return $url;
+        header('Location:'.$url);
     }
 
     public function code(Request $Request){
