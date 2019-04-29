@@ -316,6 +316,11 @@ class WxController extends Controller{
                     "type"=>"view",
                     "url"=>"http://1809lancong.comcto.com/give"
                 ),
+                array(
+                    'name'=>"签到",
+                    "type"=>"click",
+                    "key"=>"http://1809lancong.comcto.com/gives"
+                ),
             ),
         );
         $strjson = json_encode($arr,JSON_UNESCAPED_UNICODE);
@@ -532,6 +537,7 @@ class WxController extends Controller{
         $openid = $responser['openid'];
         $arr = DB::table('give')->where('openid',$openid)->first();
 
+
         if($arr){
             echo "欢迎回来,正在进入商品详情页";
         }else{
@@ -543,7 +549,48 @@ class WxController extends Controller{
             DB::table('give')->insert($data);
             echo "欢迎";
         }
+
         header('Refresh:3;url=/goodDetail');
+
+    }
+
+
+    public function gives(){
+        $scope = "snsapi_userinfo";
+        $url = urlencode("http://1809lancong.comcto.com/codes");
+        $url = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid='.env('WX_APPID').'&redirect_uri='.$url.'&response_type=code&scope='.$scope.'&state=STATE#wechat_redirect';
+        header('Location:'.$url);
+    }
+
+    public function codes(Request $Request){
+        $data = $Request->input();
+        $code = $data['code'];
+//        print_r($code);die;
+        $url = 'https://api.weixin.qq.com/sns/oauth2/access_token?appid='.env('WX_APPID').'&secret='.env('WX_SECRET').'&code='.$code.'&grant_type=authorization_code';
+        $responser = json_decode(file_get_contents($url),true);
+
+        $accessToken = $responser['access_token'];
+        $openid = $responser['openid'];
+
+        $url = "https://api.weixin.qq.com/sns/userinfo?access_token=$accessToken&openid=$openid&lang=zh_CN";
+        $responser = json_decode(file_get_contents($url),true);
+        $create_time = time();
+        $data = [
+            'openid' => $responser['openid'],
+            'create_time'=>$create_time
+        ];
+        print_r($data);die;
+
+        $redis = new \Redis();
+        $redis -> connect('127.0.0.1',6379);
+        $id = $redis-> incr("id");
+        $hsetkey = "id_{$id}";
+        $keylist = "sign_in";
+        $redis->hset($hsetkey,"openid",$data['openid']);
+        $redis->hset($hsetkey,"create_time",$data['create_time']);
+        $redis->hset($hsetkey,"id",$id);
+        $redis->rpush($keylist,$hsetkey);
+
 
     }
     public function JsapiTicket()
@@ -566,5 +613,6 @@ class WxController extends Controller{
             }
         }
     }
+
 }
 ?>
