@@ -256,56 +256,65 @@ class WxController extends Controller{
     public function menu(){
         $accessToken = $this->accessToken();
         $url="https://api.weixin.qq.com/cgi-bin/menu/create?access_token=$accessToken";
+//        $arr = array(
+//            "button"=> array(
+//                array(
+//                    'name'=>"葫芦娃娃",
+//                    "type"=>"click",
+//                    "key"=>"aaaaa",
+//                    "sub_button"=>array(
+//                        array(
+//                            "type"=>"click",
+//                            "name"=>"大娃娃",
+//                            "key"=>"iii"
+//                        ),
+//                        array(
+//                            "type"=>"click",
+//                            "name"=>"小娃娃",
+//                            "key"=>"iii"
+//                        ),
+//                    ),
+//
+//                ),
+//                array(
+//                    'name'=>"玩具",
+//                    "type"=>"click",
+//                    "key"=>"bbb",
+//                    "sub_button"=>array(
+//                        array(
+//                            "type"=>"click",
+//                            "name"=>"店铺",
+//                            "key"=>"iii"
+//                        ),
+//                        array(
+//                            "type"=>"view",
+//                            "name"=>"百度",
+//                            "url"=>"https://www.baidu.com/"
+//                        ),
+//
+//                    ),
+//                ),
+//                array(
+//                    'name'=>"推广",
+//                    "type"=>"click",
+//                    "key"=>"bbb",
+//                    "sub_button"=>array(
+//                        array(
+//                            "type"=>"scancode_waitmsg",
+//                            "name"=>"微信扫码",
+//                            "key"=>"iii"
+//                        ),
+//                    ),
+//
+//                ),
+//            ),
+//        );
         $arr = array(
             "button"=> array(
                 array(
-                    'name'=>"葫芦娃娃",
-                    "type"=>"click",
-                    "key"=>"aaaaa",
-                    "sub_button"=>array(
-                        array(
-                            "type"=>"click",
-                            "name"=>"大娃娃",
-                            "key"=>"iii"
-                        ),
-                        array(
-                            "type"=>"click",
-                            "name"=>"小娃娃",
-                            "key"=>"iii"
-                        ),
-                    ),
-
-                ),
-                array(
-                    'name'=>"玩具",
-                    "type"=>"click",
-                    "key"=>"bbb",
-                    "sub_button"=>array(
-                        array(
-                            "type"=>"click",
-                            "name"=>"店铺",
-                            "key"=>"iii"
-                        ),
-                        array(
-                            "type"=>"view",
-                            "name"=>"百度",
-                            "url"=>"https://www.baidu.com/"
-                        ),
-
-                    ),
-                ),
-                array(
-                    'name'=>"推广",
-                    "type"=>"click",
-                    "key"=>"bbb",
-                    "sub_button"=>array(
-                        array(
-                            "type"=>"scancode_waitmsg",
-                            "name"=>"微信扫码",
-                            "key"=>"iii"
-                        ),
-                    ),
-
+                    'name'=>"最新福利",
+                    "type"=>"view",
+                    "url"=>"http://1809lancong.comcto.com/give"
                 ),
             ),
         );
