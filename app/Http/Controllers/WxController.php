@@ -171,11 +171,53 @@ class WxController extends Controller{
                         </xml>";
                 echo $str;
             }else{
-                $data = [
-                    'openid'=>$openid,
-                    'content'=>$Content
-                ];
-                $array = DB::table('sucai')->insert($data);
+                $data = DB::table('shop_goods')->where('goods_up',1)->where('goods_name','like',"%$Content%")->first();
+                if($data){
+                    $good_name = $good->goods_name;
+                    $title = "秀儿";
+                    $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
+                    $url = "http://1809lancong.comcto.com/goodDetail";
+                    $str = "<xml>
+                          <ToUserName><![CDATA[$FromUserName]]></ToUserName>
+                          <FromUserName><![CDATA[$ToUserName]]></FromUserName>
+                          <CreateTime>$CreateTime</CreateTime>
+                          <MsgType><![CDATA[news]]></MsgType>
+                          <ArticleCount>1</ArticleCount>
+                          <Articles>
+                            <item>
+                              <Title><![CDATA[$title]]></Title>
+                              <Description><![CDATA[$good_name]]></Description>
+                              <PicUrl><![CDATA[$picurl]]></PicUrl>
+                              <Url><![CDATA[$url]]></Url>
+                            </item>
+                          </Articles>
+                        </xml>";
+                    echo $str;
+                }else{
+                    $id = rand(1,99);
+                    $good = DB::table('shop_goods')->where('goods_up',1)->where('goods_id',$id)->first();
+                    $good_name = $good->goods_name;
+                    $title = "秀儿";
+                    $picurl = "http://1809lancong.comcto.com/goodsimg/$good->goods_img";
+                    $url = "http://1809lancong.comcto.com/goodDetail";
+                    $str = "<xml>
+                          <ToUserName><![CDATA[$FromUserName]]></ToUserName>
+                          <FromUserName><![CDATA[$ToUserName]]></FromUserName>
+                          <CreateTime>$CreateTime</CreateTime>
+                          <MsgType><![CDATA[news]]></MsgType>
+                          <ArticleCount>1</ArticleCount>
+                          <Articles>
+                            <item>
+                              <Title><![CDATA[$title]]></Title>
+                              <Description><![CDATA[$good_name]]></Description>
+                              <PicUrl><![CDATA[$picurl]]></PicUrl>
+                              <Url><![CDATA[$url]]></Url>
+                            </item>
+                          </Articles>
+                        </xml>";
+                    echo $str;
+                }
+
             }
         }else if($MsgType=='voice'){
             $url="https://api.weixin.qq.com/cgi-bin/media/get?access_token=$accessToken&media_id=$MediaId";
