@@ -593,14 +593,9 @@ class WxController extends Controller{
 
 
         $arr = $redis->lrange($keylist,0,-1);
+        print_r($arr);die;
         $data = [];
-
-        foreach ($arr as $k=>$v){
-            $arr2 = $redis->hGetAll($v);
-            array_push($data,$arr2);
-        }
-        print_r($arr2);
-        print_r($data);die;
+        
     }
     public function JsapiTicket()
     {
