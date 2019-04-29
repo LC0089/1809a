@@ -199,7 +199,7 @@ class WxController extends Controller{
                     $good_name = $data->goods_name;
                     $title = "秀儿";
                     $picurl = "http://1809lancong.comcto.com/goodsimg/$data->goods_img";
-                    $url = "http://1809lancong.comcto.com/details"."/?goods_id='$data->goods_id'";
+                    $url = "http://1809lancong.comcto.com/details"."/?goods_id=$data->goods_id";
 //                    print_r($url);die;
                     $str = "<xml>
                           <ToUserName><![CDATA[$FromUserName]]></ToUserName>
