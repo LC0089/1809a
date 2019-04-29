@@ -8,6 +8,15 @@
     <title>Document</title>
 </head>
 <body>
-
+        <tr>
+            <td>openid</td>
+            <td>签到时间</td>
+        </tr>
+        @foreach($arr as $k=>$v)
+        <tr>
+            <td>{{$v->openid}}</td>
+            <td>{{$v->create_time}}</td>
+        </tr>
+        @endforeach
 </body>
 </html>

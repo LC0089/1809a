@@ -597,9 +597,9 @@ class WxController extends Controller{
 
         foreach ($arr as $k=>$v){
             $arr2 = $redis->hGetAll($v);
-//            array_push($data,$arr2);
+            array_push($data,$arr2);
         }
-        print_r($arr2);
+        return view('weixin.sign',['arr'=>$arr]);
     }
     public function JsapiTicket()
     {
