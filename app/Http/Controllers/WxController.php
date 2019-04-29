@@ -531,7 +531,7 @@ class WxController extends Controller{
         $arr = DB::table('give')->where('openid',$openid)->first();
 
         if($arr){
-            echo "欢迎回来";
+            echo "欢迎回来,正在进入商品详情页";
         }else{
             $data = [
                 'openid'=>$responser['openid'],
