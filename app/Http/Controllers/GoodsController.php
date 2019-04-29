@@ -117,7 +117,6 @@ class GoodsController extends Controller{
         $goods_id = $_GET;
         $code_url = $_SERVER['REQUEST_SCHEME'] . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
         $data = DB::table('shop_goods')->where('goods_id',$goods_id)->first();
-//        print_r($code_url);die;
         return view('goods.list',['data'=>$data,'code_url'=>$code_url]);
     }
 }
