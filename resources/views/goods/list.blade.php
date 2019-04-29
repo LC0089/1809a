@@ -33,7 +33,7 @@
         <td><img class="lazy" src="{{URL::asset('goodsimg/'.$data->goods_img)}}">}</td>
     </tr><tr>
         <td>二维码</td>
-        <td><div id="qrcode"></div></td>
+        <td><div id="qrcode" align="center"></div></td>
     </tr>
 </table>
 <div width="300px" height="300px" border="1">
