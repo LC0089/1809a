@@ -318,7 +318,7 @@ class WxController extends Controller{
                 ),
                 array(
                     'name'=>"签到",
-                    "type"=>"click",
+                    "type"=>"view",
                     "key"=>"http://1809lancong.comcto.com/gives"
                 ),
             ),
