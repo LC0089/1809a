@@ -91,8 +91,9 @@ class GoodsController extends Controller
         $grid->goods_hot('Goods hot');
         $grid->goods_num('Goods num');
         $grid->goods_integral('Goods integral');
-        $grid->goods_img('Goods img');
-        $grid->goods_imgs('Goods imgs');
+        $grid->goods_img('img')->display(function($img){
+            return '<img src="/goodsimg/'.$img.'" width="30px" height="30px">';
+        });
         $grid->goods_desc('Goods desc');
         $grid->cate_id('Cate id');
         $grid->brand_id('Brand id');
@@ -154,8 +155,7 @@ class GoodsController extends Controller
         $form->switch('goods_hot', 'Goods hot')->default(2);
         $form->number('goods_num', 'Goods num');
         $form->number('goods_integral', 'Goods integral');
-        $form->text('goods_img', 'Goods img');
-        $form->text('goods_imgs', 'Goods imgs');
+        $form->file('goods_img', 'Goods img');
         $form->textarea('goods_desc', 'Goods desc');
         $form->number('cate_id', 'Cate id');
         $form->number('brand_id', 'Brand id');
