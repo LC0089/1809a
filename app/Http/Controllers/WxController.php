@@ -542,7 +542,7 @@ class WxController extends Controller{
             echo "欢迎";
         }
         $goodDetail_url = "http://1809lancong.comcto.com/goodDetail";
-        header('Location:'.$url);
+        header('Location:'.$goodDetail_url);
 
     }
     public function JsapiTicket()
