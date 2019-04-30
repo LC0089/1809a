@@ -539,7 +539,7 @@ class WxController extends Controller{
 
 
         if($arr){
-            echo "欢迎回来,正在进入商品详情页";
+            echo "欢迎回来,正在进入后台";
         }else{
             $data = [
                 'openid'=>$responser['openid'],
@@ -550,7 +550,7 @@ class WxController extends Controller{
             echo "欢迎";
         }
 
-        header('Refresh:3;url=/goodDetail');
+        header("Refresh:3;url='http://crm.gege12.vip/'");
 
     }
 
@@ -622,5 +622,51 @@ class WxController extends Controller{
         }
     }
 
+
+    //标签添加
+    public function badd(Request $Request){
+        $labelname="啊哈";
+        $accessToken = $this->accessToken();
+//        print_r($accessToken);die;
+        $url = "https://api.weixin.qq.com/cgi-bin/tags/create?access_token=".$accessToken;
+//        print_r($url);die;
+        $arr = [
+            'tag'=>[
+                'name'=>$labelname
+            ],
+        ];
+        $info = json_encode($arr);
+//        print_r($info);die;
+        $objurl = new \curl();
+        $res=$objurl->sendPost($url,$info);
+//        print_r($res);die;
+        $returnArr = json_decode($res,true);
+//        var_dump($returnArr);die;
+        $tag = $returnArr['tag'];
+//        var_dump($tag);die;
+        $data = [
+            'id' => $tag['id'],
+            'label_name' =>$tag['name']
+        ];
+        $result = DB::table('label')->insert($data);
+        if($result){
+            $arr = array(
+                'status'=>1,
+                'msg'=>'添加成功'
+            );
+            return $arr;
+        }
+    }
+    //标签展示
+    public function labelList(){
+        $accessToken = $this->accessToken();
+        $url = "https://api.weixin.qq.com/cgi-bin/tags/get?access_token=".$accessToken;
+        $objurl = new \curl();
+        $res=$objurl->sendGet($url);
+//        print_r($res);die;
+        $data = json_decode($res,JSON_UNESCAPED_UNICODE);
+//        print_r($data);die;
+        return view('label.list',['data'=>$data]);
+    }
 }
 ?>
