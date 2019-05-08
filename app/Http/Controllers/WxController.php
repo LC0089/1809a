@@ -668,5 +668,6 @@ class WxController extends Controller{
 //        print_r($data);die;
         return view('label.list',['data'=>$data]);
     }
+
 }
 ?>
